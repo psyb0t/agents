@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+.env.*
+*.env
+.envrc
+.git-credentials
+*.pem
+*.key
+
+# Dev-level markdown — never commit
+CLAUDE.md
+implplan.md
+ANUSTIMES.md
+.brutal-review.md
+.brutal_reviews/
+.plan-and-delegate/
+
+# Local tooling
+git-update.sh
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Research clones
+.research_files/
+.telemetry/

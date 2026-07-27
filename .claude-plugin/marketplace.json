@@ -1,0 +1,298 @@
+{
+  "name": "psyb0t",
+  "owner": {
+    "name": "psyb0t",
+    "url": "https://github.com/psyb0t"
+  },
+  "description": "Agent skills and plugins from psyb0t projects.",
+  "plugins": [
+    {
+      "name": "aigate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/aigate",
+        "path": ".agents"
+      },
+      "description": "Self-hosted AI platform combining inference routing, MCP tools, browser automation, and media generation behind one OpenAI-compatible endpoint.",
+      "license": "WTFPL",
+      "category": "ai-infrastructure",
+      "homepage": "https://github.com/psyb0t/aigate"
+    },
+    {
+      "name": "audiolla",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-audiolla",
+        "path": ".agents"
+      },
+      "description": "Self-hosted audio-production API for stem separation, mastering, MIR analysis, DSP chains, MIDI, and AI restoration via REST and MCP.",
+      "license": "WTFPL",
+      "category": "audio-processing",
+      "homepage": "https://github.com/psyb0t/docker-audiolla"
+    },
+    {
+      "name": "claudebox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-claudebox",
+        "path": ".agents"
+      },
+      "description": "Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.",
+      "license": "WTFPL",
+      "category": "developer-tools",
+      "homepage": "https://github.com/psyb0t/docker-claudebox"
+    },
+    {
+      "name": "codexbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-codexbox",
+        "path": ".agents"
+      },
+      "description": "OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.",
+      "license": "WTFPL",
+      "category": "ai-agents",
+      "homepage": "https://github.com/psyb0t/docker-codexbox"
+    },
+    {
+      "name": "docker-mailbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-mailbox",
+        "path": ".agents"
+      },
+      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail.",
+      "license": "WTFPL",
+      "category": "email",
+      "homepage": "https://github.com/psyb0t/docker-mailbox"
+    },
+    {
+      "name": "flickies",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-flickies",
+        "path": ".agents"
+      },
+      "description": "Self-hosted video toolkit for lipsync, face restoration, and ffmpeg operations, exposed over REST and MCP.",
+      "license": "WTFPL",
+      "category": "video-processing",
+      "homepage": "https://github.com/psyb0t/docker-flickies"
+    },
+    {
+      "name": "goenv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/goenv",
+        "path": ".agents"
+      },
+      "description": "Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.",
+      "license": "MIT",
+      "category": "dev-tooling",
+      "homepage": "https://github.com/psyb0t/goenv"
+    },
+    {
+      "name": "hybrids3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-hybrids3",
+        "path": ".agents"
+      },
+      "description": "Self-hosted lightweight object storage over S3, plain HTTP, and MCP, with SQLite metadata, per-bucket keys, a master key, and presigned URLs.",
+      "license": "WTFPL",
+      "category": "object-storage",
+      "homepage": "https://github.com/psyb0t/docker-hybrids3"
+    },
+    {
+      "name": "ibkr-httpapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/ibkr-httpapi",
+        "path": ".agents"
+      },
+      "description": "HTTP+JSON bridge to Interactive Brokers via ib_async — market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP.",
+      "license": "WTFPL",
+      "category": "trading",
+      "homepage": "https://github.com/psyb0t/ibkr-httpapi"
+    },
+    {
+      "name": "mediaproc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-mediaproc",
+        "path": ".agents"
+      },
+      "description": "Media processing over SSH — ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation in a locked-down container.",
+      "license": "WTFPL",
+      "category": "media-processing",
+      "homepage": "https://github.com/psyb0t/docker-mediaproc"
+    },
+    {
+      "name": "mt5-httpapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/mt5-httpapi",
+        "path": ".agents"
+      },
+      "description": "MetaTrader 5 trading via REST — market data, orders, positions, history, and server-side technical analysis.",
+      "license": "WTFPL",
+      "category": "trading",
+      "homepage": "https://github.com/psyb0t/mt5-httpapi"
+    },
+    {
+      "name": "persistent-sshfs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/persistent-sshfs",
+        "path": ".agents"
+      },
+      "description": "Bash tool that brings up SSHFS mounts, retrying key-based SSH auth until connected, then mounts with sshfs -o reconnect.",
+      "license": "WTFPL",
+      "category": "filesystem-mounting",
+      "homepage": "https://github.com/psyb0t/persistent-sshfs"
+    },
+    {
+      "name": "pibox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-pibox",
+        "path": ".agents"
+      },
+      "description": "pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.",
+      "license": "WTFPL",
+      "category": "coding-agents",
+      "homepage": "https://github.com/psyb0t/docker-pibox"
+    },
+    {
+      "name": "planesnitch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-planesnitch",
+        "path": ".agents"
+      },
+      "description": "Self-hosted aircraft monitor that alerts on military, government, or custom-watchlist planes near your locations via Telegram or webhook, using free public ADS-B data.",
+      "license": "WTFPL",
+      "category": "aviation-monitoring",
+      "homepage": "https://github.com/psyb0t/docker-planesnitch"
+    },
+    {
+      "name": "predictalot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-predictalot",
+        "path": ".agents"
+      },
+      "description": "Self-hosted forecasting API — zero-shot time-series forecasting and supervised tabular ML over REST and MCP.",
+      "license": "WTFPL",
+      "category": "forecasting",
+      "homepage": "https://github.com/psyb0t/docker-predictalot"
+    },
+    {
+      "name": "proxq",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-proxq",
+        "path": ".agents"
+      },
+      "description": "Redis-backed async HTTP proxy: submit any request, get a job ID instantly, poll for status, fetch the replayed upstream response.",
+      "license": "MIT",
+      "category": "async-proxy",
+      "homepage": "https://github.com/psyb0t/docker-proxq"
+    },
+    {
+      "name": "qwenspeak",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-qwenspeak",
+        "path": ".agents"
+      },
+      "description": "Self-hosted text-to-speech via Qwen3-TTS models over SSH, with preset voices, voice cloning, and voice design.",
+      "license": "WTFPL",
+      "category": "text-to-speech",
+      "homepage": "https://github.com/psyb0t/docker-qwenspeak"
+    },
+    {
+      "name": "servicepack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/servicepack",
+        "path": ".agents"
+      },
+      "description": "Clone-and-own Go service framework: concurrent service manager with retry, dependency ordering, readiness gating, and CLI scaffolding.",
+      "license": "MIT",
+      "category": "go-framework",
+      "homepage": "https://github.com/psyb0t/servicepack"
+    },
+    {
+      "name": "ssh-tunnel-swarm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/ssh-tunnel-swarm",
+        "path": ".agents"
+      },
+      "description": "Bash tool that manages many concurrent SSH forward and reverse tunnels from a single rules file, with auto-reconnect and per-host keys.",
+      "license": "WTFPL",
+      "category": "networking",
+      "homepage": "https://github.com/psyb0t/ssh-tunnel-swarm"
+    },
+    {
+      "name": "stealthy-auto-browse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-stealthy-auto-browse",
+        "path": ".agents"
+      },
+      "description": "Stealth browser automation in Docker — Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.",
+      "license": "WTFPL",
+      "category": "browser-automation",
+      "homepage": "https://github.com/psyb0t/docker-stealthy-auto-browse"
+    },
+    {
+      "name": "supervisor-config-gen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/supervisor-config-gen",
+        "path": ".agents"
+      },
+      "description": "Bash script that generates a Supervisor (supervisord) program config file from the current directory, with zero CLI flags.",
+      "license": "WTFPL",
+      "category": "process-management",
+      "homepage": "https://github.com/psyb0t/supervisor-config-gen"
+    },
+    {
+      "name": "talkies",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-talkies",
+        "path": ".agents"
+      },
+      "description": "Self-hosted OpenAI-compatible speech API — ASR transcription (7 backends) and TTS synthesis (Kokoro, Qwen3-TTS voice cloning) over HTTP and MCP.",
+      "license": "WTFPL",
+      "category": "speech-ai",
+      "homepage": "https://github.com/psyb0t/docker-talkies"
+    },
+    {
+      "name": "telethon-plus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-telethon-plus",
+        "path": ".agents"
+      },
+      "description": "HTTP + MCP control plane over a real Telegram MTProto userbot account — messages, dialogs, media, chat admin, polls, and an incoming-message webhook.",
+      "license": "WTFPL",
+      "category": "messaging",
+      "homepage": "https://github.com/psyb0t/docker-telethon-plus"
+    },
+    {
+      "name": "wickworks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-wickworks",
+        "path": ".agents"
+      },
+      "description": "Self-hosted OHLC service computing technical indicators and Smart-Money-Concepts primitives from candlestick bars via REST and MCP.",
+      "license": "WTFPL",
+      "category": "technical-analysis",
+      "homepage": "https://github.com/psyb0t/docker-wickworks"
+    }
+  ]
+}
