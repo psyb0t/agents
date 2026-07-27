@@ -61,20 +61,6 @@
       "description": "OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler."
     },
     {
-      "name": "docker-mailbox",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/psyb0t/docker-mailbox",
-        "path": ".agents"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Communication",
-      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail."
-    },
-    {
       "name": "flickies",
       "source": {
         "source": "git-subdir",
@@ -129,6 +115,20 @@
       },
       "category": "Finance",
       "description": "HTTP+JSON bridge to Interactive Brokers via ib_async — market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP."
+    },
+    {
+      "name": "mailbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-mailbox",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Communication",
+      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail."
     },
     {
       "name": "mediaproc",

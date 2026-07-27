@@ -2,6 +2,15 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.0.1 — 2026-07-27
+
+- Renamed the `docker-mailbox` entry to `mailbox` in both marketplace files and the
+  README index, so it installs as `mailbox@psyb0t`. It was the only plugin named after
+  its repository rather than the tool, and the new name matches the MCP-bridge plugin
+  shipped at `docker-mailbox/.agents/plugins/mailbox`. Published in
+  [docker-mailbox v0.4.8](https://github.com/psyb0t/docker-mailbox/releases/tag/v0.4.8);
+  the ClawHub skill is unaffected and remains `@psyb0t/docker-mailbox`.
+
 ## v1.0.0 — 2026-07-27
 
 First release — the marketplace catalog for every psyb0t agent skill and plugin.

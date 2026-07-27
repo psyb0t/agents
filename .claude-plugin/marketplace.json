@@ -55,18 +55,6 @@
       "homepage": "https://github.com/psyb0t/docker-codexbox"
     },
     {
-      "name": "docker-mailbox",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/psyb0t/docker-mailbox",
-        "path": ".agents"
-      },
-      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail.",
-      "license": "WTFPL",
-      "category": "email",
-      "homepage": "https://github.com/psyb0t/docker-mailbox"
-    },
-    {
       "name": "flickies",
       "source": {
         "source": "git-subdir",
@@ -113,6 +101,18 @@
       "license": "WTFPL",
       "category": "trading",
       "homepage": "https://github.com/psyb0t/ibkr-httpapi"
+    },
+    {
+      "name": "mailbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-mailbox",
+        "path": ".agents"
+      },
+      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail.",
+      "license": "WTFPL",
+      "category": "email",
+      "homepage": "https://github.com/psyb0t/docker-mailbox"
     },
     {
       "name": "mediaproc",
