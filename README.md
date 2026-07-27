@@ -27,10 +27,19 @@ Then install whatever you need:
 
 ```bash
 claude plugin install <plugin>@psyb0t
+codex plugin add <plugin>@psyb0t
 ```
 
+The install verb differs between the two clients: Claude Code uses
+`plugin install`, Codex uses `plugin add`. There is no `codex plugin install`.
+
+Adding the marketplace on its own installs nothing — it registers the catalog so
+individual plugins can be installed from it. Once installed, a plugin's skill is
+invoked in Codex as `$<plugin>:<skill>`.
+
 Codex additionally discovers any of these skills automatically in a checkout of
-the tool's own repository, since it scans `.agents/skills/` natively.
+the tool's own repository, since it scans `.agents/skills/` natively. No install
+is involved there, and the skill invokes as plain `$<skill>`.
 
 ## Plugins
 

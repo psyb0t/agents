@@ -2,6 +2,18 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.0.2 — 2026-07-27
+
+- Added the Codex install command to the README. The Install section listed
+  `claude plugin install <plugin>@psyb0t` but nothing equivalent for Codex, so a
+  Codex user was told to register the marketplace and left with no way to install
+  from it. The command is `codex plugin add <plugin>@psyb0t` — the verb is `add`,
+  and `codex plugin install` does not exist.
+- Noted that registering a marketplace installs nothing by itself, and that an
+  installed plugin's skill is invoked in Codex as `$<plugin>:<skill>` while a
+  skill discovered from a repository's own `.agents/skills/` invokes as
+  `$<skill>`.
+
 ## v1.0.1 — 2026-07-27
 
 - Renamed the `docker-mailbox` entry to `mailbox` in both marketplace files and the
