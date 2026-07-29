@@ -3,51 +3,50 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-Agent skills and plugins from psyb0t projects — one marketplace for all of them.
+25 plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
+Pi Zero, read your unread mail, post to Telegram from a real userbot account,
+forecast a time series, watch for military aircraft overhead, or drive a browser
+that anti-bot stacks can't smell. Every one of them runs on your own metal.
 
-Almost every entry is a metadata-only plugin rooted at its own repository's
-`.agents/` directory: a skill (markdown that teaches an agent to drive the tool)
-and, where the tool speaks MCP, a bridge plugin. Nothing here declares hooks,
-executables, or MCP servers of its own.
+No SaaS in the middle. No per-seat bill. No API key to some company that reads
+everything you pipe through it and loses it in a breach next quarter. Just:
+"here's a tool I already run" → "now my agent knows how to drive it."
 
-The exception is `loop`, whose repository root *is* the plugin. It is referenced
-with `source: "url"` and no `path` rather than `git-subdir`, because `git-subdir`
-requires a `path` and Codex rejects root-equivalent values like `"."` — the
-plugin would simply never be found.
+Each entry is a skill — markdown that teaches an agent the endpoints, the
+arguments, and the shit that will bite you — plus an MCP bridge where the tool
+speaks MCP. The catalog holds no copies of anything: every entry points at the
+source repo, so you always get whatever that project last shipped.
 
-## Table of contents
+## Contents
 
 - [Install](#install)
 - [Plugins](#plugins)
-- [How it is wired](#how-it-is-wired)
+- [Calling them](#calling-them)
+- [Adding your own](#adding-your-own)
 - [License](#license)
 
 ## Install
 
-Add the marketplace once:
+Register the catalog once:
 
 ```bash
 claude plugin marketplace add psyb0t/agents
 codex plugin marketplace add psyb0t/agents
 ```
 
-Then install whatever you need:
+Take what you want:
 
 ```bash
 claude plugin install <plugin>@psyb0t
 codex plugin add <plugin>@psyb0t
 ```
 
-The install verb differs between the two clients: Claude Code uses
-`plugin install`, Codex uses `plugin add`. There is no `codex plugin install`.
+Yes, the verbs are different. Claude Code says `install`, Codex says `add`, and
+`codex plugin install` isn't a thing — it'll tell you so. Registering the
+catalog installs nothing on its own; it just points the client here.
 
-Adding the marketplace on its own installs nothing — it registers the catalog so
-individual plugins can be installed from it. Once installed, a plugin's skill is
-invoked in Codex as `$<plugin>:<skill>`.
-
-Codex additionally discovers any of these skills automatically in a checkout of
-the tool's own repository, since it scans `.agents/skills/` natively. No install
-is involved there, and the skill invokes as plain `$<skill>`.
+Restart the session after installing or the skill won't be loaded.
 
 ## Plugins
 
@@ -79,24 +78,33 @@ is involved there, and the skill invokes as plain `$<skill>`.
 | `telethon-plus` | HTTP + MCP control plane over a real Telegram MTProto userbot account — messages, dialogs, media, chat admin, polls, and an incoming-message webhook. | `claude plugin install telethon-plus@psyb0t` | [docker-telethon-plus](https://github.com/psyb0t/docker-telethon-plus) |
 | `wickworks` | Self-hosted OHLC service computing technical indicators and Smart-Money-Concepts primitives from candlestick bars via REST and MCP. | `claude plugin install wickworks@psyb0t` | [docker-wickworks](https://github.com/psyb0t/docker-wickworks) |
 
-## How it is wired
+## Calling them
 
-Each entry points at its source repository with a `git-subdir` source targeting
-that repo's `.agents/` directory, so the plugin is always whatever that
-repository last released — this catalog carries no copies.
+In Codex a skill is `$<plugin>:<skill>` — `$loop:loop`, `$mailbox:mailbox`.
 
-Two marketplace files live here because the two clients read different schemas
-and different paths:
+Working inside one of the tool repos? Codex finds the skill on its own, no
+install needed, and it's plain `$<skill>`.
+
+## Adding your own
+
+Two catalog files, because the two clients read different schemas from
+different paths:
 
 | Client | File |
 |---|---|
 | Claude Code | `.claude-plugin/marketplace.json` |
 | Codex | `.agents/plugins/marketplace.json` |
 
-A marketplace registers under its `name`, and a second marketplace claiming a
-registered name either replaces the first (Claude Code) or is rejected outright
-(Codex). That is why every plugin is listed here rather than each repository
-publishing its own marketplace.
+Most entries use a `git-subdir` source aimed at the repo's `.agents/` dir.
+`loop` is the odd one — its repo root *is* the plugin, so it uses a `url`
+source with no path. Don't reach for `git-subdir` there: it demands a `path`,
+and Codex throws out root-equivalent junk like `"."`, so the plugin just
+silently never exists.
+
+Everything lives in this one catalog instead of every repo shipping its own,
+because a marketplace registers under its `name` — and a second one claiming a
+name that's already taken either clobbers the first (Claude Code) or gets
+rejected flat out (Codex).
 
 ## License
 

@@ -2,6 +2,22 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.1.1 — 2026-07-29
+
+- Rewrote the README. It opened by explaining that entries are metadata-only
+  plugins rooted at each repository's `.agents/` directory — internal plumbing
+  nobody installing a plugin needs to know — and got three paragraphs in without
+  saying what the catalog actually gives you. It now leads with the range:
+  trading terminals, audio and video pipelines, RF on a Raspberry Pi, mail, a
+  Telegram account, object storage, stealth browsing, coding agents in
+  containers.
+- All source-layout detail moved under "Adding an entry", where it belongs, and
+  a "How a skill gets invoked" section covers the `$<plugin>:<skill>` form and
+  the plain `$<skill>` form Codex uses inside a tool's own repository.
+- Fixed a claim that survived v1.1.0: "How it is wired" still said every entry
+  used a `git-subdir` source, which stopped being true when `loop` landed with a
+  `url` source.
+
 ## v1.1.0 — 2026-07-29
 
 - Added `loop` to the Codex marketplace — a Codex CLI plugin that repeats
