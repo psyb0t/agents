@@ -22,7 +22,12 @@ source repo, so you always get whatever that project last shipped.
 
 - [Install](#install)
 - [Plugins](#plugins)
-  - [Development](#development) · [Infrastructure](#infrastructure) · [Media](#media) · [Finance](#finance) · [Communication](#communication) · [Data](#data)
+  - [Development](#development)
+  - [Infrastructure](#infrastructure)
+  - [Media](#media)
+  - [Finance](#finance)
+  - [Communication](#communication)
+  - [Data](#data)
 - [Calling them](#calling-them)
 - [Adding your own](#adding-your-own)
 - [License](#license)

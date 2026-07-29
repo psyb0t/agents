@@ -2,6 +2,12 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.2.1 — 2026-07-29
+
+- The category links under Plugins in the table of contents were crammed onto
+  one line separated by dots, the only inline item in an otherwise vertical
+  list. They are nested list items now, like everything else.
+
 ## v1.2.0 — 2026-07-29
 
 - Replaced the plugin table with sections grouped by category — Development,
