@@ -117,6 +117,19 @@
       "description": "HTTP+JSON bridge to Interactive Brokers via ib_async — market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP."
     },
     {
+      "name": "loop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/psyb0t/codex-plugin-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, using Goal mode plus a session-owned background timer."
+    },
+    {
       "name": "mailbox",
       "source": {
         "source": "git-subdir",

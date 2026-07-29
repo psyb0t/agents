@@ -1,11 +1,19 @@
 # agents
 
+[![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
+[![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
+
 Agent skills and plugins from psyb0t projects — one marketplace for all of them.
 
-Every entry is a metadata-only plugin rooted at its own repository's `.agents/`
-directory: a skill (markdown that teaches an agent to drive the tool) and, where
-the tool speaks MCP, a bridge plugin. Nothing here declares hooks, executables,
-or MCP servers of its own.
+Almost every entry is a metadata-only plugin rooted at its own repository's
+`.agents/` directory: a skill (markdown that teaches an agent to drive the tool)
+and, where the tool speaks MCP, a bridge plugin. Nothing here declares hooks,
+executables, or MCP servers of its own.
+
+The exception is `loop`, whose repository root *is* the plugin. It is referenced
+with `source: "url"` and no `path` rather than `git-subdir`, because `git-subdir`
+requires a `path` and Codex rejects root-equivalent values like `"."` — the
+plugin would simply never be found.
 
 ## Table of contents
 
@@ -53,6 +61,7 @@ is involved there, and the skill invokes as plain `$<skill>`.
 | `goenv` | Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod. | `claude plugin install goenv@psyb0t` | [goenv](https://github.com/psyb0t/goenv) |
 | `hybrids3` | Self-hosted lightweight object storage over S3, plain HTTP, and MCP, with SQLite metadata, per-bucket keys, a master key, and presigned URLs. | `claude plugin install hybrids3@psyb0t` | [docker-hybrids3](https://github.com/psyb0t/docker-hybrids3) |
 | `ibkr-httpapi` | HTTP+JSON bridge to Interactive Brokers via ib_async — market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP. | `claude plugin install ibkr-httpapi@psyb0t` | [ibkr-httpapi](https://github.com/psyb0t/ibkr-httpapi) |
+| `loop` | Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, using Goal mode plus a session-owned background timer. **Codex only.** | `codex plugin add loop@psyb0t` | [codex-plugin-loop](https://github.com/psyb0t/codex-plugin-loop) |
 | `mailbox` | Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail. | `claude plugin install mailbox@psyb0t` | [docker-mailbox](https://github.com/psyb0t/docker-mailbox) |
 | `mediaproc` | Media processing over SSH — ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation in a locked-down container. | `claude plugin install mediaproc@psyb0t` | [docker-mediaproc](https://github.com/psyb0t/docker-mediaproc) |
 | `mt5-httpapi` | MetaTrader 5 trading via REST — market data, orders, positions, history, and server-side technical analysis. | `claude plugin install mt5-httpapi@psyb0t` | [mt5-httpapi](https://github.com/psyb0t/mt5-httpapi) |

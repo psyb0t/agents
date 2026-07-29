@@ -2,6 +2,26 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.1.0 — 2026-07-29
+
+- Added `loop` to the Codex marketplace — a Codex CLI plugin that repeats
+  instructions at a fixed interval in the active TUI session, using Goal mode
+  plus a session-owned background timer.
+- `loop` is the first entry using `source: "url"` rather than `git-subdir`. Its
+  plugin lives at the repository root instead of under `.agents/`, and
+  `git-subdir` cannot express that: it requires a `path`, and Codex rejects
+  root-equivalent values such as `"."` or `"./"`, silently skipping the plugin
+  so `codex plugin add` reports it as not found. Omitting `path` on a `url`
+  source makes the whole repository the plugin.
+- `loop` is Codex-only — it ships no Claude manifest, so it is absent from
+  `.claude-plugin/marketplace.json` and its README row gives
+  `codex plugin add loop@psyb0t` instead of the `claude plugin install` form
+  used by every other entry.
+- Corrected the README intro, which claimed every entry is rooted at its
+  repository's `.agents/` directory. That stopped being true with `loop`.
+- Added `.github/workflows/pipeline.yml` rendering the version and license
+  badges on tag pushes, and the badge block at the top of the README.
+
 ## v1.0.2 — 2026-07-27
 
 - Added the Codex install command to the README. The Install section listed
