@@ -2,6 +2,13 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.1.2 — 2026-07-29
+
+- Corrected the v1.1.1 entry, which named two README sections that do not exist.
+  It was written against an earlier draft and cited "Adding an entry" and "How a
+  skill gets invoked"; the sections that shipped are "Adding your own" and
+  "Calling them".
+
 ## v1.1.1 — 2026-07-29
 
 - Rewrote the README. It opened by explaining that entries are metadata-only
@@ -11,9 +18,9 @@ All notable changes per release. Versions follow [semver](https://semver.org).
   trading terminals, audio and video pipelines, RF on a Raspberry Pi, mail, a
   Telegram account, object storage, stealth browsing, coding agents in
   containers.
-- All source-layout detail moved under "Adding an entry", where it belongs, and
-  a "How a skill gets invoked" section covers the `$<plugin>:<skill>` form and
-  the plain `$<skill>` form Codex uses inside a tool's own repository.
+- All source-layout detail moved under "Adding your own", where it belongs, and
+  a "Calling them" section covers the `$<plugin>:<skill>` form and the plain
+  `$<skill>` form Codex uses inside a tool's own repository.
 - Fixed a claim that survived v1.1.0: "How it is wired" still said every entry
   used a `git-subdir` source, which stopped being true when `loop` landed with a
   `url` source.
