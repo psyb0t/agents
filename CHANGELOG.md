@@ -2,6 +2,21 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.2.0 — 2026-07-29
+
+- Replaced the plugin table with sections grouped by category — Development,
+  Infrastructure, Media, Finance, Communication, Data — each entry a single
+  line linking straight to its repository.
+- **Fixed a misleading Install column.** The table gave
+  `claude plugin install <name>@psyb0t` for all but one row, which read as
+  though those plugins were Claude Code only. Every plugin except `loop` works
+  in both clients; `loop` is Codex-only because it is a Codex CLI plugin and
+  there is nothing for Claude Code to install. The install commands are now
+  stated once, in Install, with that exception called out, instead of being
+  repeated 25 times with one word changed.
+- Repository links are generated from each entry's `source.url`, so they cannot
+  drift from the marketplace file.
+
 ## v1.1.2 — 2026-07-29
 
 - Corrected the v1.1.1 entry, which named two README sections that do not exist.
