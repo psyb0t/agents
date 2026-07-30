@@ -2,6 +2,13 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.2.2 — 2026-07-30
+
+- The `loop` entry described a mechanism the plugin no longer uses. It was
+  listed as running on Goal mode plus a session-owned background timer; as of
+  loop v0.3.0 it holds one turn open and waits on the `clock.sleep` tool
+  between iterations. Updated in both the catalog and the README listing.
+
 ## v1.2.1 — 2026-07-29
 
 - The category links under Plugins in the table of contents were crammed onto

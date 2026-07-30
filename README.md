@@ -67,7 +67,7 @@ Coding agents, frameworks, and the tools you point them at.
 - **[`claudebox`](https://github.com/psyb0t/docker-claudebox)** — Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.
 - **[`codexbox`](https://github.com/psyb0t/docker-codexbox)** — OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
 - **[`goenv`](https://github.com/psyb0t/goenv)** — Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.
-- **[`loop`](https://github.com/psyb0t/codex-plugin-loop)** — Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, using Goal mode plus a session-owned background timer. *(Codex only)*
+- **[`loop`](https://github.com/psyb0t/codex-plugin-loop)** — Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`pibox`](https://github.com/psyb0t/docker-pibox)** — pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
 - **[`servicepack`](https://github.com/psyb0t/servicepack)** — Clone-and-own Go service framework: concurrent service manager with retry, dependency ordering, readiness gating, and CLI scaffolding.
 - **[`stealthy-auto-browse`](https://github.com/psyb0t/docker-stealthy-auto-browse)** — Stealth browser automation in Docker — Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.

@@ -127,7 +127,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Development",
-      "description": "Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, using Goal mode plus a session-owned background timer."
+      "description": "Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations."
     },
     {
       "name": "mailbox",
