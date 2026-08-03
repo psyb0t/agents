@@ -211,6 +211,18 @@
       "homepage": "https://github.com/psyb0t/docker-qwenspeak"
     },
     {
+      "name": "rankrat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/rankrat",
+        "path": ".agents"
+      },
+      "description": "Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights — search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.",
+      "license": "WTFPL",
+      "category": "seo-analytics",
+      "homepage": "https://github.com/psyb0t/rankrat"
+    },
+    {
       "name": "servicepack",
       "source": {
         "source": "git-subdir",

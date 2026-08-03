@@ -114,6 +114,7 @@ Feeds and forecasts.
 
 - **[`planesnitch`](https://github.com/psyb0t/docker-planesnitch)** — Self-hosted aircraft monitor that alerts on military, government, or custom-watchlist planes near your locations via Telegram or webhook, using free public ADS-B data.
 - **[`predictalot`](https://github.com/psyb0t/docker-predictalot)** — Self-hosted forecasting API — zero-shot time-series forecasting and supervised tabular ML over REST and MCP.
+- **[`rankrat`](https://github.com/psyb0t/rankrat)** — Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights — search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.
 
 ## Calling them
 

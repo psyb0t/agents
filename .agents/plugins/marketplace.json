@@ -256,6 +256,20 @@
       "description": "Self-hosted text-to-speech via Qwen3-TTS models over SSH, with preset voices, voice cloning, and voice design."
     },
     {
+      "name": "rankrat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/rankrat",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data",
+      "description": "Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights — search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure."
+    },
+    {
       "name": "servicepack",
       "source": {
         "source": "git-subdir",

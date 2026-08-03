@@ -2,6 +2,21 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.3.0 — 2026-08-03
+
+Adds `rankrat` to the catalog.
+
+- **[`rankrat`](https://github.com/psyb0t/rankrat)** — self-hosted MCP server
+  over Google Search Console, Bing Webmaster Tools, GA4 and PageSpeed Insights.
+  Search analytics, indexing and crawl diagnostics, ranking and opportunity
+  reports. Read-only by default and scoped to the properties configured on the
+  server, so an agent cannot widen its own account scope.
+- Listed in both catalogs and in the README table in the same change, under
+  **Data** for Codex and `seo-analytics` for Claude Code.
+- Skill only, no MCP-bridge plugin: rankrat's default mode already speaks MCP
+  over stdio, so a client spawns the image directly and a stdio-to-HTTP bridge
+  would add a hop for nothing.
+
 ## v1.2.3 — 2026-08-01
 
 Infrastructure only. No catalog entry, README line, or plugin manifest changed.
