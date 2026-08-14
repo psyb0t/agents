@@ -2,6 +2,22 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.4.0 — 2026-08-14
+
+Adds `pr0xteus` and `gitrakz` to the catalog after each source repository gained
+a Claude Code/Codex documentation skill.
+
+- **[`pr0xteus`](https://github.com/psyb0t/pr0xteus)** — private
+  WireGuard-backed SOCKS5 tunnel pools for trusted services that need a
+  configured country exit without exposing an open proxy.
+- **[`gitrakz`](https://github.com/psyb0t/gitrakz)** — self-hosted GitHub
+  activity tracker: syncs a user's gh activity into local SQLite, renders a
+  filterable timeline and derived work sessions, and runs deterministic
+  programmatic templates that export to CSV/PDF/JSON.
+- Both are listed in both catalogs and the README, and each ships a
+  documentation skill only — neither exposes an MCP endpoint, so an OpenClaw
+  bridge would be fake plumbing.
+
 ## v1.3.0 — 2026-08-03
 
 Adds `rankrat` to the catalog.

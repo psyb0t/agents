@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-25 plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+27 plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -66,6 +66,7 @@ Coding agents, frameworks, and the tools you point them at.
 
 - **[`claudebox`](https://github.com/psyb0t/docker-claudebox)** — Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.
 - **[`codexbox`](https://github.com/psyb0t/docker-codexbox)** — OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
+- **[`gitrakz`](https://github.com/psyb0t/gitrakz)** — Self-hosted GitHub activity tracker: syncs a user's gh activity into local SQLite, renders a filterable timeline and derived work sessions, and runs deterministic programmatic templates that export to CSV/PDF/JSON.
 - **[`goenv`](https://github.com/psyb0t/goenv)** — Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.
 - **[`loop`](https://github.com/psyb0t/codex-plugin-loop)** — Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`pibox`](https://github.com/psyb0t/docker-pibox)** — pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
@@ -80,6 +81,7 @@ Storage, tunnels, mounts, proxies — the plumbing.
 - **[`hybrids3`](https://github.com/psyb0t/docker-hybrids3)** — Self-hosted lightweight object storage over S3, plain HTTP, and MCP, with SQLite metadata, per-bucket keys, a master key, and presigned URLs.
 - **[`persistent-sshfs`](https://github.com/psyb0t/persistent-sshfs)** — Bash tool that brings up SSHFS mounts, retrying key-based SSH auth until connected, then mounts with sshfs -o reconnect.
 - **[`proxq`](https://github.com/psyb0t/docker-proxq)** — Redis-backed async HTTP proxy: submit any request, get a job ID instantly, poll for status, fetch the replayed upstream response.
+- **[`pr0xteus`](https://github.com/psyb0t/pr0xteus)** — WireGuard-backed SOCKS5 tunnel pools for trusted services that need a configured country exit without exposing an open proxy.
 - **[`ssh-tunnel-swarm`](https://github.com/psyb0t/ssh-tunnel-swarm)** — Bash tool that manages many concurrent SSH forward and reverse tunnels from a single rules file, with auto-reconnect and per-host keys.
 - **[`supervisor-config-gen`](https://github.com/psyb0t/supervisor-config-gen)** — Bash script that generates a Supervisor (supervisord) program config file from the current directory, with zero CLI flags.
 

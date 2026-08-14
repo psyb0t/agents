@@ -242,6 +242,34 @@
       "description": "Redis-backed async HTTP proxy: submit any request, get a job ID instantly, poll for status, fetch the replayed upstream response."
     },
     {
+      "name": "pr0xteus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/pr0xteus",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Infrastructure",
+      "description": "WireGuard-backed SOCKS5 tunnel pools for trusted services that need a configured country exit without exposing an open proxy."
+    },
+    {
+      "name": "gitrakz",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/gitrakz",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "description": "Drive a self-hosted gitrakz instance: sync a GitHub user's activity into local SQLite, query the timeline and derived work sessions, and run deterministic programmatic templates that export to CSV/PDF/JSON, over its /api/v1 REST API."
+    },
+    {
       "name": "qwenspeak",
       "source": {
         "source": "git-subdir",

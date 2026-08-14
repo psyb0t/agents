@@ -8,6 +8,7 @@
 *.key
 
 # Dev-level markdown — never commit
+AGENTS.md
 CLAUDE.md
 implplan.md
 ANUSTIMES.md
