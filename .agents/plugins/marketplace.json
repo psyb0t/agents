@@ -382,6 +382,34 @@
       "description": "HTTP + MCP control plane over a real Telegram MTProto userbot account — messages, dialogs, media, chat admin, polls, and an incoming-message webhook."
     },
     {
+      "name": "decidealot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/decidealot",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Self-hosted local Laya and Von decision models over TypeSafe-compatible REST and MCP."
+    },
+    {
+      "name": "vibecheck",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/vibecheck",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Self-hosted typed classification, scoring, and policy decisions over REST and MCP."
+    },
+    {
       "name": "wickworks",
       "source": {
         "source": "git-subdir",

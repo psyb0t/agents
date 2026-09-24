@@ -319,6 +319,30 @@
       "homepage": "https://github.com/psyb0t/docker-telethon-plus"
     },
     {
+      "name": "decidealot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/decidealot",
+        "path": ".agents"
+      },
+      "description": "Self-hosted local Laya and Von decision models over TypeSafe-compatible REST and MCP.",
+      "license": "WTFPL",
+      "category": "developer-tools",
+      "homepage": "https://github.com/psyb0t/decidealot"
+    },
+    {
+      "name": "vibecheck",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/vibecheck",
+        "path": ".agents"
+      },
+      "description": "Self-hosted typed classification, scoring, and policy decisions over REST and MCP.",
+      "license": "MIT",
+      "category": "developer-tools",
+      "homepage": "https://github.com/psyb0t/vibecheck"
+    },
+    {
       "name": "wickworks",
       "source": {
         "source": "git-subdir",

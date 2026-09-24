@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-27 plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+30 Codex plugins and 29 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -66,12 +66,14 @@ Coding agents, frameworks, and the tools you point them at.
 
 - **[`claudebox`](https://github.com/psyb0t/docker-claudebox)** — Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.
 - **[`codexbox`](https://github.com/psyb0t/docker-codexbox)** — OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
+- **[`decidealot`](https://github.com/psyb0t/decidealot)** — Self-hosted local Laya and Von decision models over TypeSafe-compatible REST and MCP.
 - **[`gitrakz`](https://github.com/psyb0t/gitrakz)** — Self-hosted GitHub activity tracker: syncs a user's gh activity into local SQLite, renders a filterable timeline and derived work sessions, and runs deterministic programmatic templates that export to CSV/PDF/JSON.
 - **[`goenv`](https://github.com/psyb0t/goenv)** — Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.
 - **[`loop`](https://github.com/psyb0t/codex-plugin-loop)** — Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`pibox`](https://github.com/psyb0t/docker-pibox)** — pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
 - **[`servicepack`](https://github.com/psyb0t/servicepack)** — Clone-and-own Go service framework: concurrent service manager with retry, dependency ordering, readiness gating, and CLI scaffolding.
 - **[`stealthy-auto-browse`](https://github.com/psyb0t/docker-stealthy-auto-browse)** — Stealth browser automation in Docker — Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.
+- **[`vibecheck`](https://github.com/psyb0t/vibecheck)** — Self-hosted typed classification, scoring, and policy decisions over REST and MCP.
 
 ### Infrastructure
 

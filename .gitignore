@@ -9,8 +9,13 @@
 
 # Dev-level markdown — never commit
 AGENTS.md
+CODEX.local.md
 CLAUDE.md
+PLAN.md
 implplan.md
+NOTES.md
+TODO.md
+WIP.md
 ANUSTIMES.md
 .brutal-review.md
 .brutal_reviews/
@@ -27,4 +32,13 @@ git-update.sh
 
 # Research clones
 .research_files/
+.agent_notes/
+.agent_knowledge/
 .telemetry/
+
+# Test and profile artifacts
+coverage.txt
+coverage.out
+profile.out
+.cover/
+htmlcov/

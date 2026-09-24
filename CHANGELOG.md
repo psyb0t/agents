@@ -2,6 +2,11 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.5.0 (2026-09-24)
+
+- Added Decidealot to the Claude Code and Codex marketplaces. It runs local Laya and Von typed decisions through REST and MCP.
+- Added Vibecheck to both marketplaces. It runs typed classification, scoring, and policy decisions through REST and MCP.
+
 ## v1.4.0 — 2026-08-14
 
 Adds `pr0xteus` and `gitrakz` to the catalog after each source repository gained
