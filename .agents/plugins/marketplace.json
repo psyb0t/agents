@@ -75,6 +75,34 @@
       "description": "Self-hosted video toolkit for lipsync, face restoration, and ffmpeg operations, exposed over REST and MCP."
     },
     {
+      "name": "gen-asyncapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/gen-asyncapi",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Generates Go or TypeScript types, strict validation, message dispatch and a WebSocket client from AsyncAPI 3 specs, run from go generate."
+    },
+    {
+      "name": "go-asyncapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-asyncapi",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Go library that loads AsyncAPI 3 documents into servers, channels, operations and messages, with $refs followed across files and traits merged."
+    },
+    {
       "name": "goenv",
       "source": {
         "source": "git-subdir",

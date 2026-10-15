@@ -67,6 +67,30 @@
       "homepage": "https://github.com/psyb0t/docker-flickies"
     },
     {
+      "name": "gen-asyncapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/gen-asyncapi",
+        "path": ".agents"
+      },
+      "description": "Generates Go or TypeScript types, strict validation, message dispatch and a WebSocket client from AsyncAPI 3 specs, run from go generate.",
+      "license": "MIT",
+      "category": "dev-tooling",
+      "homepage": "https://github.com/psyb0t/gen-asyncapi"
+    },
+    {
+      "name": "go-asyncapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-asyncapi",
+        "path": ".agents"
+      },
+      "description": "Go library that loads AsyncAPI 3 documents into servers, channels, operations and messages, with $refs followed across files and traits merged.",
+      "license": "MIT",
+      "category": "dev-tooling",
+      "homepage": "https://github.com/psyb0t/go-asyncapi"
+    },
+    {
       "name": "goenv",
       "source": {
         "source": "git-subdir",

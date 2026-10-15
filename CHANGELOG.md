@@ -2,6 +2,11 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.6.0 (2026-10-15)
+
+- Added gen-asyncapi to the Claude Code and Codex marketplaces. It generates Go or TypeScript types, validation and a WebSocket client from AsyncAPI 3 specs.
+- Added go-asyncapi to both marketplaces. It loads AsyncAPI 3 documents in Go with `$ref`s followed and traits merged.
+
 ## v1.5.0 (2026-09-24)
 
 - Added Decidealot to the Claude Code and Codex marketplaces. It runs local Laya and Von typed decisions through REST and MCP.

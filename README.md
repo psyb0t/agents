@@ -67,7 +67,9 @@ Coding agents, frameworks, and the tools you point them at.
 - **[`claudebox`](https://github.com/psyb0t/docker-claudebox)** — Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.
 - **[`codexbox`](https://github.com/psyb0t/docker-codexbox)** — OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
 - **[`decidealot`](https://github.com/psyb0t/decidealot)** — Self-hosted local Laya and Von decision models over TypeSafe-compatible REST and MCP.
+- **[`gen-asyncapi`](https://github.com/psyb0t/gen-asyncapi)**: Generates Go or TypeScript types, strict validation, message dispatch and a WebSocket client from AsyncAPI 3 specs, run from go generate.
 - **[`gitrakz`](https://github.com/psyb0t/gitrakz)** — Self-hosted GitHub activity tracker: syncs a user's gh activity into local SQLite, renders a filterable timeline and derived work sessions, and runs deterministic programmatic templates that export to CSV/PDF/JSON.
+- **[`go-asyncapi`](https://github.com/psyb0t/go-asyncapi)**: Go library that loads AsyncAPI 3 documents into servers, channels, operations and messages, with $refs followed across files and traits merged.
 - **[`goenv`](https://github.com/psyb0t/goenv)** — Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.
 - **[`loop`](https://github.com/psyb0t/codex-plugin-loop)** — Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`pibox`](https://github.com/psyb0t/docker-pibox)** — pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
