@@ -8,7 +8,6 @@
 *.key
 
 # Dev-level markdown: never commit
-AGENTS.md
 CODEX.local.md
 CLAUDE.md
 PLAN.md
