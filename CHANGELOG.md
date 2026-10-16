@@ -2,6 +2,13 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.7.0 (2026-10-16)
+
+- Added 26 Go API clients to the Claude Code and Codex marketplaces under a new API Clients category: go-cerebras, go-contextual-ai, go-elevenlabs, go-etoro, go-exa, go-fireworks, go-hubspot, go-ibkr, go-jina, go-julep, go-kalshi, go-llama-api, go-mistral, go-perplexity, go-render-api, go-revolut-business, go-runway, go-supabase-management, go-tinker, go-togetherai, go-trading212, go-valtown, go-vercel, go-weave, go-writer-ai and go-xai.
+- Added mql-compiler to both marketplaces. It compiles MQL4 and MQL5 sources to .ex4/.ex5 on Linux with MetaEditor under Wine in Docker.
+- Added peen to both marketplaces. It is a durable coding-agent backend with Docker workspaces, WebSocket work submission and SQLite-backed sessions.
+- Plugin descriptions no longer use em dashes.
+
 ## v1.6.0 (2026-10-15)
 
 - Added gen-asyncapi to the Claude Code and Codex marketplaces. It generates Go or TypeScript types, validation and a WebSocket client from AsyncAPI 3 specs.

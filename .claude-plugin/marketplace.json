@@ -91,6 +91,318 @@
       "homepage": "https://github.com/psyb0t/go-asyncapi"
     },
     {
+      "name": "go-cerebras",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-cerebras",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Cerebras Inference API, generated with oapi-codegen: typed methods for chat completions, completions and model listing.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-cerebras"
+    },
+    {
+      "name": "go-contextual-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-contextual-ai",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Contextual AI API: typed methods for agents, queries, datastores, documents, generate, rerank, parse and LMUnit, generated from Contextual AI's OpenAPI spec.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-contextual-ai"
+    },
+    {
+      "name": "go-elevenlabs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-elevenlabs",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the ElevenLabs REST API, generated with oapi-codegen, with one typed method per endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-elevenlabs"
+    },
+    {
+      "name": "go-etoro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-etoro",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go clients for the eToro public API: a typed REST client and a WebSocket client for rates, candles, market status and order updates, generated from the specs eToro publishes.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-etoro"
+    },
+    {
+      "name": "go-exa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-exa",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Exa search API: search, find similar, page contents, cited answers and research tasks, generated from the spec Exa publishes.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-exa"
+    },
+    {
+      "name": "go-fireworks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-fireworks",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Fireworks AI REST API, generated with oapi-codegen: typed methods for chat completions, models, deployments, datasets and fine-tuning jobs.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-fireworks"
+    },
+    {
+      "name": "go-hubspot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-hubspot",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the HubSpot API, generated from HubSpot's unified OpenAPI spec: CRM objects, associations, properties, marketing, CMS, automation and more, with Bearer token auth.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-hubspot"
+    },
+    {
+      "name": "go-ibkr",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-ibkr",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Interactive Brokers Web API (Client Portal API v1): accounts, positions, contracts, market data and orders, generated from the spec Interactive Brokers publishes.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-ibkr"
+    },
+    {
+      "name": "go-jina",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-jina",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Jina AI APIs: embeddings, reranking, models, chat completions, batch embedding jobs and the Reader API, generated from Jina AI's OpenAPI documents.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-jina"
+    },
+    {
+      "name": "go-julep",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-julep",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Julep API: typed methods for agents, tools, tasks, executions, sessions and chat, users, docs, files and secrets, generated from Julep's OpenAPI spec.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-julep"
+    },
+    {
+      "name": "go-kalshi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-kalshi",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for Kalshi: a typed Trade REST client, market data and perps WebSocket clients, and a request signer, generated from the specs Kalshi publishes.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-kalshi"
+    },
+    {
+      "name": "go-llama-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-llama-api",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Meta Llama API: chat completions, models, moderations and uploads, generated from Meta's OpenAPI spec.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-llama-api"
+    },
+    {
+      "name": "go-mistral",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-mistral",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Mistral AI REST API, generated with oapi-codegen, with one typed method per endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-mistral"
+    },
+    {
+      "name": "go-perplexity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-perplexity",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Perplexity REST API, generated with oapi-codegen: Sonar chat completions, search, embeddings, agents, skills and models.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-perplexity"
+    },
+    {
+      "name": "go-render-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-render-api",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Render public REST API, generated with oapi-codegen, with one typed method per endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-render-api"
+    },
+    {
+      "name": "go-revolut-business",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-revolut-business",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Revolut Business REST API, generated with oapi-codegen, with one typed method per endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-revolut-business"
+    },
+    {
+      "name": "go-runway",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-runway",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Runway API: typed methods for image, video and audio generation, task polling, voices, avatars, workflows and organization usage.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-runway"
+    },
+    {
+      "name": "go-supabase-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-supabase-management",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Supabase Management API: typed methods for organizations, projects, branches, database and auth config, edge functions, secrets and more.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-supabase-management"
+    },
+    {
+      "name": "go-tinker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-tinker",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Thinking Machines Tinker API: typed methods for model creation, forward and backward passes, optimizer steps, sampling, weights and futures.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-tinker"
+    },
+    {
+      "name": "go-togetherai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-togetherai",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Together AI REST API, generated with oapi-codegen, with one typed method per endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-togetherai"
+    },
+    {
+      "name": "go-trading212",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-trading212",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Trading 212 Public API: account, positions, orders, history, instruments and pies, generated from the spec Trading 212 publishes.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-trading212"
+    },
+    {
+      "name": "go-valtown",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-valtown",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Val Town API: vals, branches, files, environment variables, blobs, SQLite, email, telemetry and users, generated from Val Town's OpenAPI document.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-valtown"
+    },
+    {
+      "name": "go-vercel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-vercel",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Vercel REST API, generated from Vercel's OpenAPI spec, with a typed method for every endpoint.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-vercel"
+    },
+    {
+      "name": "go-weave",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-weave",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the W&B Weave trace server API: typed methods to log and query calls, objects, tables, feedback, costs and evaluations.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-weave"
+    },
+    {
+      "name": "go-writer-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-writer-ai",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the Writer (writer.com) API: chat, completions, files, Knowledge Graphs, no-code applications and tools, generated from Writer's OpenAPI spec.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-writer-ai"
+    },
+    {
+      "name": "go-xai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-xai",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the xAI (Grok) REST API, generated with oapi-codegen: chat completions, responses, messages, embeddings, image and video generation, files, skills and models.",
+      "license": "MIT",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-xai"
+    },
+    {
       "name": "goenv",
       "source": {
         "source": "git-subdir",
@@ -121,7 +433,7 @@
         "url": "https://github.com/psyb0t/ibkr-httpapi",
         "path": ".agents"
       },
-      "description": "HTTP+JSON bridge to Interactive Brokers via ib_async — market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP.",
+      "description": "HTTP+JSON bridge to Interactive Brokers via ib_async: market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP.",
       "license": "WTFPL",
       "category": "trading",
       "homepage": "https://github.com/psyb0t/ibkr-httpapi"
@@ -145,10 +457,22 @@
         "url": "https://github.com/psyb0t/docker-mediaproc",
         "path": ".agents"
       },
-      "description": "Media processing over SSH — ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation in a locked-down container.",
+      "description": "Media processing over SSH: ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation in a locked-down container.",
       "license": "WTFPL",
       "category": "media-processing",
       "homepage": "https://github.com/psyb0t/docker-mediaproc"
+    },
+    {
+      "name": "mql-compiler",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-mql-compiler",
+        "path": ".agents"
+      },
+      "description": "Compile MQL4 and MQL5 sources to .ex4/.ex5 on Linux with MetaEditor under Wine in Docker, and read the compiler's errors.",
+      "license": "MIT",
+      "category": "trading",
+      "homepage": "https://github.com/psyb0t/docker-mql-compiler"
     },
     {
       "name": "mt5-httpapi",
@@ -157,10 +481,22 @@
         "url": "https://github.com/psyb0t/mt5-httpapi",
         "path": ".agents"
       },
-      "description": "MetaTrader 5 trading via REST — market data, orders, positions, history, and server-side technical analysis.",
+      "description": "MetaTrader 5 trading via REST: market data, orders, positions, history, and server-side technical analysis.",
       "license": "WTFPL",
       "category": "trading",
       "homepage": "https://github.com/psyb0t/mt5-httpapi"
+    },
+    {
+      "name": "peen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/peen",
+        "path": ".agents"
+      },
+      "description": "Durable coding-agent backend: configure providers and Docker workspaces, send work over WebSocket, add harness layers, and inspect or control SQLite-backed sessions.",
+      "license": "MIT",
+      "category": "coding-agents",
+      "homepage": "https://github.com/psyb0t/peen"
     },
     {
       "name": "persistent-sshfs",
@@ -205,7 +541,7 @@
         "url": "https://github.com/psyb0t/docker-predictalot",
         "path": ".agents"
       },
-      "description": "Self-hosted forecasting API — zero-shot time-series forecasting and supervised tabular ML over REST and MCP.",
+      "description": "Self-hosted forecasting API: zero-shot time-series forecasting and supervised tabular ML over REST and MCP.",
       "license": "WTFPL",
       "category": "forecasting",
       "homepage": "https://github.com/psyb0t/docker-predictalot"
@@ -265,7 +601,7 @@
         "url": "https://github.com/psyb0t/rankrat",
         "path": ".agents"
       },
-      "description": "Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights — search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.",
+      "description": "Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights: search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.",
       "license": "WTFPL",
       "category": "seo-analytics",
       "homepage": "https://github.com/psyb0t/rankrat"
@@ -301,7 +637,7 @@
         "url": "https://github.com/psyb0t/docker-stealthy-auto-browse",
         "path": ".agents"
       },
-      "description": "Stealth browser automation in Docker — Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.",
+      "description": "Stealth browser automation in Docker: Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.",
       "license": "WTFPL",
       "category": "browser-automation",
       "homepage": "https://github.com/psyb0t/docker-stealthy-auto-browse"
@@ -325,7 +661,7 @@
         "url": "https://github.com/psyb0t/docker-talkies",
         "path": ".agents"
       },
-      "description": "Self-hosted OpenAI-compatible speech API — ASR transcription (7 backends) and TTS synthesis (Kokoro, Qwen3-TTS voice cloning) over HTTP and MCP.",
+      "description": "Self-hosted OpenAI-compatible speech API: ASR transcription (7 backends) and TTS synthesis (Kokoro, Qwen3-TTS voice cloning) over HTTP and MCP.",
       "license": "WTFPL",
       "category": "speech-ai",
       "homepage": "https://github.com/psyb0t/docker-talkies"
@@ -337,7 +673,7 @@
         "url": "https://github.com/psyb0t/docker-telethon-plus",
         "path": ".agents"
       },
-      "description": "HTTP + MCP control plane over a real Telegram MTProto userbot account — messages, dialogs, media, chat admin, polls, and an incoming-message webhook.",
+      "description": "HTTP + MCP control plane over a real Telegram MTProto userbot account: messages, dialogs, media, chat admin, polls, and an incoming-message webhook.",
       "license": "WTFPL",
       "category": "messaging",
       "homepage": "https://github.com/psyb0t/docker-telethon-plus"
