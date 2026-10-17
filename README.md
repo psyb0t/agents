@@ -65,71 +65,71 @@ Restart the session after installing or the skill won't be loaded.
 
 Coding agents, frameworks, and the tools you point them at.
 
-- **[`claudebox`](https://github.com/psyb0t/docker-claudebox)**: Runs Claude Code in a Docker container, drivable via CLI, HTTP REST API, an OpenAI-compatible endpoint, MCP, Telegram, or cron.
-- **[`codexbox`](https://github.com/psyb0t/docker-codexbox)**: OpenAI Codex CLI in a Docker container, exposed via REST API, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
-- **[`decidealot`](https://github.com/psyb0t/decidealot)**: Self-hosted local Laya and Von decision models over TypeSafe-compatible REST and MCP.
+- **[`claudebox`](https://github.com/psyb0t/docker-claudebox)**: Claude Code running in an isolated Docker container, driven via interactive shell, one-shot exec, an HTTP REST API, an OpenAI-compatible chat/completions adapter, an MCP server, a Telegram bot, and a YAML cron scheduler.
+- **[`codexbox`](https://github.com/psyb0t/docker-codexbox)**: OpenAI Codex CLI running in a Docker container, put on the network: a REST API, an OpenAI-compatible chat-completions endpoint, an MCP server, a Telegram bot, and a cron scheduler.
+- **[`decidealot`](https://github.com/psyb0t/decidealot)**: Run local Laya, Von, and CLM or hosted Jev decisions through Decidealot REST or MCP.
 - **[`gen-asyncapi`](https://github.com/psyb0t/gen-asyncapi)**: Generates Go or TypeScript types, strict validation, message dispatch and a WebSocket client from AsyncAPI 3 specs, run from go generate.
-- **[`gitrakz`](https://github.com/psyb0t/gitrakz)**: Drive a self-hosted gitrakz instance: sync a GitHub user's activity into local SQLite, query the timeline and derived work sessions, and run deterministic programmatic templates that export to CSV/PDF/JSON, over its /api/v1 REST API.
+- **[`gitrakz`](https://github.com/psyb0t/gitrakz)**: Drive a self-hosted gitrakz instance: sync a GitHub user's activity into local SQLite, query the filterable timeline and derived work sessions, and run deterministic programmatic templates that export to CSV/PDF/JSON: over its bearer-protected /api/v1 REST API.
 - **[`go-asyncapi`](https://github.com/psyb0t/go-asyncapi)**: Go library that loads AsyncAPI 3 documents into servers, channels, operations and messages, with $refs followed across files and traits merged.
-- **[`goenv`](https://github.com/psyb0t/goenv)**: Go library that reads the ENV environment variable and returns whether a process is running in prod or dev, defaulting to prod.
+- **[`goenv`](https://github.com/psyb0t/goenv)**: Go library that reads the ENV environment variable and reports whether the process is running in prod or dev, defaulting to prod when ENV is unset or anything other than the literal "dev".
 - **[`loop`](https://github.com/psyb0t/codex-plugin-loop)**: Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`peen`](https://github.com/psyb0t/peen)**: Durable coding-agent backend: configure providers and Docker workspaces, send work over WebSocket, add harness layers, and inspect or control SQLite-backed sessions.
-- **[`pibox`](https://github.com/psyb0t/docker-pibox)**: pi-coding-agent running in a container, exposed over HTTP REST, an OpenAI-compatible endpoint, MCP, a Telegram bot, and a cron scheduler.
-- **[`servicepack`](https://github.com/psyb0t/servicepack)**: Clone-and-own Go service framework: concurrent service manager with retry, dependency ordering, readiness gating, and CLI scaffolding.
-- **[`stealthy-auto-browse`](https://github.com/psyb0t/docker-stealthy-auto-browse)**: Stealth browser automation in Docker: Camoufox, OS-level input, HTTP API and MCP server for authorized anti-bot QA and security testing.
-- **[`vibecheck`](https://github.com/psyb0t/vibecheck)**: Self-hosted typed classification, scoring, and policy decisions over REST and MCP.
+- **[`pibox`](https://github.com/psyb0t/docker-pibox)**: pi-coding-agent running in a container: interactive shell, one-shot exec, an HTTP REST API, an OpenAI-compatible chat endpoint, an MCP server, a Telegram bot, and a cron scheduler, all on one image.
+- **[`servicepack`](https://github.com/psyb0t/servicepack)**: Clone-and-own Go service framework: debug related services together locally, then ship one binary or split them into microservices with lifecycle, retry, readiness, and CLI scaffolding.
+- **[`stealthy-auto-browse`](https://github.com/psyb0t/docker-stealthy-auto-browse)**: Headless-detection-resistant browser automation in Docker: Camoufox stealth browser, human-like OS-level input via PyAutoGUI, HTTP API and MCP server, for authorized QA and defensive security testing.
+- **[`vibecheck`](https://github.com/psyb0t/vibecheck)**: Use Vibecheck for typed classification, scoring, and policy decisions over REST or MCP.
 
 ### Infrastructure
 
 Storage, tunnels, mounts, proxies: the plumbing.
 
-- **[`aigate`](https://github.com/psyb0t/aigate)**: Self-hosted AI platform combining inference routing, MCP tools, browser automation, and media generation behind one OpenAI-compatible endpoint.
-- **[`hybrids3`](https://github.com/psyb0t/docker-hybrids3)**: Self-hosted lightweight object storage over S3, plain HTTP, and MCP, with SQLite metadata, per-bucket keys, a master key, and presigned URLs.
-- **[`persistent-sshfs`](https://github.com/psyb0t/persistent-sshfs)**: Bash tool that brings up SSHFS mounts, retrying key-based SSH auth until connected, then mounts with sshfs -o reconnect.
-- **[`proxq`](https://github.com/psyb0t/docker-proxq)**: Redis-backed async HTTP proxy: submit any request, get a job ID instantly, poll for status, fetch the replayed upstream response.
-- **[`pr0xteus`](https://github.com/psyb0t/pr0xteus)**: WireGuard-backed SOCKS5 tunnel pools for trusted services that need a configured country exit without exposing an open proxy.
-- **[`ssh-tunnel-swarm`](https://github.com/psyb0t/ssh-tunnel-swarm)**: Bash tool that manages many concurrent SSH forward and reverse tunnels from a single rules file, with auto-reconnect and per-host keys.
-- **[`supervisor-config-gen`](https://github.com/psyb0t/supervisor-config-gen)**: Bash script that generates a Supervisor (supervisord) program config file from the current directory, with zero CLI flags.
+- **[`aigate`](https://github.com/psyb0t/aigate)**: Self-hosted AI platform behind one OpenAI-compatible endpoint: inference routing across cloud and local providers, MCP tool use, browser automation, image/speech/transcription, object storage, agentic code execution, web search, email and Telegram gateways, and a web UI.
+- **[`hybrids3`](https://github.com/psyb0t/docker-hybrids3)**: Self-hosted lightweight object storage speaking S3 (boto3/AWS SDK, Sig V4), plain HTTP (curl + Bearer auth), and MCP (Streamable HTTP tools) from one container: SQLite metadata, flat-file storage, config-defined buckets, per-bucket keys, a cross-bucket master key, and presigned GET/PUT URLs.
+- **[`persistent-sshfs`](https://github.com/psyb0t/persistent-sshfs)**: Bash tool that brings up SSHFS mounts and retries the initial connection until key-based SSH auth succeeds, then mounts with sshfs -o reconnect.
+- **[`proxq`](https://github.com/psyb0t/docker-proxq)**: Redis-backed async HTTP proxy queue built on asynq: submit any request, get a job ID back instantly, poll for status, and fetch the replayed upstream response.
+- **[`pr0xteus`](https://github.com/psyb0t/pr0xteus)**: WireGuard-backed SOCKS5 and HTTP proxy pools for trusted services that need a configured country exit without exposing an open proxy.
+- **[`ssh-tunnel-swarm`](https://github.com/psyb0t/ssh-tunnel-swarm)**: Bash tool that spins up and supervises many concurrent SSH forward and reverse tunnels from a plain-text rules file, with auto-reconnect.
+- **[`supervisor-config-gen`](https://github.com/psyb0t/supervisor-config-gen)**: Bash script that generates a Supervisor (supervisord) [program:*] config file from the current directory with zero CLI flags, args, or env vars.
 
 ### Media
 
 Audio, video, speech. Generate it, mangle it, transcribe it.
 
-- **[`audiolla`](https://github.com/psyb0t/docker-audiolla)**: Self-hosted audio-production API for stem separation, mastering, MIR analysis, DSP chains, MIDI, and AI restoration via REST and MCP.
-- **[`flickies`](https://github.com/psyb0t/docker-flickies)**: Self-hosted video toolkit for lipsync, face restoration, and ffmpeg operations, exposed over REST and MCP.
-- **[`mediaproc`](https://github.com/psyb0t/docker-mediaproc)**: Media processing over SSH: ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation in a locked-down container.
-- **[`qwenspeak`](https://github.com/psyb0t/docker-qwenspeak)**: Self-hosted text-to-speech via Qwen3-TTS models over SSH, with preset voices, voice cloning, and voice design.
-- **[`talkies`](https://github.com/psyb0t/docker-talkies)**: Self-hosted OpenAI-compatible speech API: ASR transcription (7 backends) and TTS synthesis (Kokoro, Qwen3-TTS voice cloning) over HTTP and MCP.
+- **[`audiolla`](https://github.com/psyb0t/docker-audiolla)**: Self-hosted audio-production API: stem separation, mastering, MIR analysis, DSP chains, MIDI, and AI restoration over REST and MCP.
+- **[`flickies`](https://github.com/psyb0t/docker-flickies)**: Self-hosted video toolkit: lipsync, face restore, and ffmpeg ops (trim, concat, transcode, scale) via REST and MCP.
+- **[`mediaproc`](https://github.com/psyb0t/docker-mediaproc)**: Media processing over SSH: ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation inside a locked-down lockbox container.
+- **[`qwenspeak`](https://github.com/psyb0t/docker-qwenspeak)**: Self-hosted text-to-speech via Qwen3-TTS models over SSH: preset voices, voice cloning, and voice design.
+- **[`talkies`](https://github.com/psyb0t/docker-talkies)**: Self-hosted OpenAI-compatible speech API: ASR and TTS over HTTP, live ASR over WebSocket, and ASR plus file staging over MCP.
 
 ### Finance
 
 Market data and order entry, self-hosted.
 
-- **[`ibkr-httpapi`](https://github.com/psyb0t/ibkr-httpapi)**: HTTP+JSON bridge to Interactive Brokers via ib_async: market data, options/futures, account/positions, order entry, and server-side TA over REST and MCP.
+- **[`ibkr-httpapi`](https://github.com/psyb0t/ibkr-httpapi)**: HTTP+JSON bridge to Interactive Brokers via ib_async and a local IB Gateway container: market data, option chains with Greeks, account/positions, order entry, and server-side technical analysis over REST and MCP.
 - **[`mt5-httpapi`](https://github.com/psyb0t/mt5-httpapi)**: MetaTrader 5 trading via REST: market data, orders, positions, history, and server-side technical analysis.
 - **[`mql-compiler`](https://github.com/psyb0t/docker-mql-compiler)**: Compile MQL4 and MQL5 sources to .ex4/.ex5 on Linux with MetaEditor under Wine in Docker, and read the compiler's errors.
-- **[`wickworks`](https://github.com/psyb0t/docker-wickworks)**: Self-hosted OHLC service computing technical indicators and Smart-Money-Concepts primitives from candlestick bars via REST and MCP.
+- **[`wickworks`](https://github.com/psyb0t/docker-wickworks)**: Stateless OHLC primitives service: candlestick bars in, technical indicators and Smart-Money-Concepts objects out, over REST and MCP.
 
 ### Communication
 
 Mail and messaging as an API your agent can drive.
 
-- **[`mailbox`](https://github.com/psyb0t/docker-mailbox)**: Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port for reading, searching, sending, and deleting mail.
-- **[`telethon-plus`](https://github.com/psyb0t/docker-telethon-plus)**: HTTP + MCP control plane over a real Telegram MTProto userbot account: messages, dialogs, media, chat admin, polls, and an incoming-message webhook.
+- **[`mailbox`](https://github.com/psyb0t/docker-mailbox)**: Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port: read, search, send, mark-seen, and delete mail across multiple inboxes.
+- **[`telethon-plus`](https://github.com/psyb0t/docker-telethon-plus)**: HTTP + MCP control plane over a real Telegram MTProto userbot (Telethon): send/read/edit/delete/forward messages, dialogs, entities, media, chat admin, and polls, plus an incoming-message webhook.
 
 ### Data
 
 Feeds and forecasts.
 
-- **[`planesnitch`](https://github.com/psyb0t/docker-planesnitch)**: Self-hosted aircraft monitor that alerts on military, government, or custom-watchlist planes near your locations via Telegram or webhook, using free public ADS-B data.
-- **[`predictalot`](https://github.com/psyb0t/docker-predictalot)**: Self-hosted forecasting API: zero-shot time-series forecasting and supervised tabular ML over REST and MCP.
-- **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights: search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.
+- **[`planesnitch`](https://github.com/psyb0t/docker-planesnitch)**: Self-hosted aircraft monitor: alerts on military/government/police aircraft, emergency squawks, and custom ICAO watchlists near your locations via Telegram and webhooks, no SDR or hardware required.
+- **[`predictalot`](https://github.com/psyb0t/docker-predictalot)**: Self-hosted forecasting service: zero-shot time-series forecasting (chronos-2, timesfm-2.5, moirai-2, toto-1, sundial-base-128m) across univariate, multivariate, covariate, and sample-path types, plus supervised tabular ML (9 backends, 3 meta-learners) with train+persist and weighted ensembles. Unified REST + MCP (Streamable-HTTP at /mcp).
+- **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over stdio and Streamable HTTP, plus REST.
 
 ### Hardware
 
 Talking to physical machines over USB and serial.
 
-- **[`marlinfw-tools`](https://github.com/psyb0t/marlinfw-tools)**: Inspect and carefully control a USB-connected Marlin 3D printer from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, audited calibration writes and a supervised first-layer test.
+- **[`marlinfw-tools`](https://github.com/psyb0t/marlinfw-tools)**: Inspect and carefully control a USB-connected Marlin 3D printer (Ender 3 and similar) from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, single audited calibration writes and a supervised first-layer test.
 
 ### API clients
 
