@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.8.0 (2026-10-17)
+
+- Added 26 Go API clients to the Claude Code and Codex marketplaces under API Clients: go-bfl, go-browser-use, go-btse, go-bunnynet, go-calcom, go-coolify, go-deribit, go-intercom, go-klavis, go-label-studio, go-latitude-llm, go-lovable, go-mem0, go-morphik, go-opik, go-polar, go-postgrid, go-roark, go-skyvern, go-solana-tracker, go-surge, go-twelvedata, go-unstructured, go-vectara, go-zeroentropy and go-zulip.
+
 ## v1.7.0 (2026-10-16)
 
 - Added 26 Go API clients to the Claude Code and Codex marketplaces under a new API Clients category: go-cerebras, go-contextual-ai, go-elevenlabs, go-etoro, go-exa, go-fireworks, go-hubspot, go-ibkr, go-jina, go-julep, go-kalshi, go-llama-api, go-mistral, go-perplexity, go-render-api, go-revolut-business, go-runway, go-supabase-management, go-tinker, go-togetherai, go-trading212, go-valtown, go-vercel, go-weave, go-writer-ai and go-xai.

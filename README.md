@@ -129,32 +129,58 @@ Feeds and forecasts.
 
 Typed Go clients for other people's APIs, generated from the specs they publish.
 
+- **[`go-bfl`](https://github.com/psyb0t/go-bfl)**: Unofficial Go client for the Black Forest Labs FLUX API, generated from its public OpenAPI specification.
+- **[`go-browser-use`](https://github.com/psyb0t/go-browser-use)**: Unofficial Go client for the Browser Use Cloud API v4: agent runs, sessions, workspaces, browsers, profiles, files and integrations.
+- **[`go-btse`](https://github.com/psyb0t/go-btse)**: Unofficial Go client for BTSE: spot, futures, market data, wallets, earn and OTC, generated from the public API specifications.
+- **[`go-bunnynet`](https://github.com/psyb0t/go-bunnynet)**: Unofficial Go client for the Bunny.net core API: CDN, DNS, storage and video library configuration, statistics, load balancers and billing.
+- **[`go-calcom`](https://github.com/psyb0t/go-calcom)**: Unofficial Go client for Cal.com API v2: bookings, event types, availability, schedules, calendars, teams and profile, generated from the public OpenAPI spec.
 - **[`go-cerebras`](https://github.com/psyb0t/go-cerebras)**: Unofficial Go client for the Cerebras Inference API, generated with oapi-codegen: typed methods for chat completions, completions and model listing.
 - **[`go-contextual-ai`](https://github.com/psyb0t/go-contextual-ai)**: Unofficial Go client for the Contextual AI API: typed methods for agents, queries, datastores, documents, generate, rerank, parse and LMUnit, generated from Contextual AI's OpenAPI spec.
+- **[`go-coolify`](https://github.com/psyb0t/go-coolify)**: Unofficial Go client for the Coolify API: applications, deployments, databases, services, projects, servers and teams, generated from the spec Coolify publishes.
+- **[`go-deribit`](https://github.com/psyb0t/go-deribit)**: Unofficial Go client for Deribit crypto options and futures: REST account, orders, instruments and market data, plus generated WebSocket subscriptions.
 - **[`go-elevenlabs`](https://github.com/psyb0t/go-elevenlabs)**: Unofficial Go client for the ElevenLabs REST API, generated with oapi-codegen, with one typed method per endpoint.
 - **[`go-etoro`](https://github.com/psyb0t/go-etoro)**: Unofficial Go clients for the eToro public API: a typed REST client and a WebSocket client for rates, candles, market status and order updates, generated from the specs eToro publishes.
 - **[`go-exa`](https://github.com/psyb0t/go-exa)**: Unofficial Go client for the Exa search API: search, find similar, page contents, cited answers and research tasks, generated from the spec Exa publishes.
 - **[`go-fireworks`](https://github.com/psyb0t/go-fireworks)**: Unofficial Go client for the Fireworks AI REST API, generated with oapi-codegen: typed methods for chat completions, models, deployments, datasets and fine-tuning jobs.
 - **[`go-hubspot`](https://github.com/psyb0t/go-hubspot)**: Unofficial Go client for the HubSpot API, generated from HubSpot's unified OpenAPI spec: CRM objects, associations, properties, marketing, CMS, automation and more, with Bearer token auth.
 - **[`go-ibkr`](https://github.com/psyb0t/go-ibkr)**: Unofficial Go client for the Interactive Brokers Web API (Client Portal API v1): accounts, positions, contracts, market data and orders, generated from the spec Interactive Brokers publishes.
+- **[`go-intercom`](https://github.com/psyb0t/go-intercom)**: Unofficial Go client for the Intercom REST API: contacts, companies, conversations, messages, articles, tickets and workspace data, generated from the published spec.
 - **[`go-jina`](https://github.com/psyb0t/go-jina)**: Unofficial Go client for the Jina AI APIs: embeddings, reranking, models, chat completions, batch embedding jobs and the Reader API, generated from Jina AI's OpenAPI documents.
 - **[`go-julep`](https://github.com/psyb0t/go-julep)**: Unofficial Go client for the Julep API: typed methods for agents, tools, tasks, executions, sessions and chat, users, docs, files and secrets, generated from Julep's OpenAPI spec.
 - **[`go-kalshi`](https://github.com/psyb0t/go-kalshi)**: Unofficial Go client for Kalshi: a typed Trade REST client, market data and perps WebSocket clients, and a request signer, generated from the specs Kalshi publishes.
+- **[`go-klavis`](https://github.com/psyb0t/go-klavis)**: Unofficial Go client for the Klavis AI API: MCP servers, tool calls, Strata, user integrations, OAuth and sandboxes, generated from the spec Klavis AI publishes.
+- **[`go-label-studio`](https://github.com/psyb0t/go-label-studio)**: Unofficial Go client for the Label Studio API: projects, tasks, annotations, predictions, imports, exports, storage and administration, generated from HumanSignal's public spec.
+- **[`go-latitude-llm`](https://github.com/psyb0t/go-latitude-llm)**: Unofficial Go client for the Latitude LLM API: projects, traces, scores, annotations, saved searches, issues, API keys and organization management, generated from the public OpenAPI spec.
 - **[`go-llama-api`](https://github.com/psyb0t/go-llama-api)**: Unofficial Go client for the Meta Llama API: chat completions, models, moderations and uploads, generated from Meta's OpenAPI spec.
+- **[`go-lovable`](https://github.com/psyb0t/go-lovable)**: Unofficial Go client for the Lovable API: projects, publishing, analytics, security scans, workspaces, groups and members, generated from the public OpenAPI spec.
+- **[`go-mem0`](https://github.com/psyb0t/go-mem0)**: Unofficial Go client for the Mem0 Platform API: memories, entities, organizations, projects, webhooks, profiles and Dream operations, generated from the spec Mem0 publishes.
 - **[`go-mistral`](https://github.com/psyb0t/go-mistral)**: Unofficial Go client for the Mistral AI REST API, generated with oapi-codegen, with one typed method per endpoint.
+- **[`go-morphik`](https://github.com/psyb0t/go-morphik)**: Unofficial Go client for the Morphik API: ingestion, documents, retrieval, queries, models, cloud apps and connectors, generated from Morphik's published spec.
+- **[`go-opik`](https://github.com/psyb0t/go-opik)**: Unofficial Go client for the Opik REST API: projects, traces, spans, datasets, experiments and prompts, generated from the specification Comet publishes.
 - **[`go-perplexity`](https://github.com/psyb0t/go-perplexity)**: Unofficial Go client for the Perplexity REST API, generated with oapi-codegen: Sonar chat completions, search, embeddings, agents, skills and models.
+- **[`go-polar`](https://github.com/psyb0t/go-polar)**: Unofficial Go client for the Polar API: products, customers, subscriptions, checkouts, orders, benefits and usage billing, generated from the public OpenAPI spec.
+- **[`go-postgrid`](https://github.com/psyb0t/go-postgrid)**: Unofficial Go client for PostGrid print and mail and address verification, generated from the published OpenAPI document.
 - **[`go-render-api`](https://github.com/psyb0t/go-render-api)**: Unofficial Go client for the Render public REST API, generated with oapi-codegen, with one typed method per endpoint.
 - **[`go-revolut-business`](https://github.com/psyb0t/go-revolut-business)**: Unofficial Go client for the Revolut Business REST API, generated with oapi-codegen, with one typed method per endpoint.
+- **[`go-roark`](https://github.com/psyb0t/go-roark)**: Unofficial Go client for the Roark API: voice AI agents, calls, chats, simulations, metrics and monitoring, generated from the spec Roark publishes.
 - **[`go-runway`](https://github.com/psyb0t/go-runway)**: Unofficial Go client for the Runway API: typed methods for image, video and audio generation, task polling, voices, avatars, workflows and organization usage.
+- **[`go-skyvern`](https://github.com/psyb0t/go-skyvern)**: Unofficial Go client for the Skyvern API: tasks, agents, runs, browser sessions, credentials and schedules, generated from the spec Skyvern publishes.
+- **[`go-solana-tracker`](https://github.com/psyb0t/go-solana-tracker)**: Unofficial Go client for the Solana Tracker Data API and Datastream: token, price, pool, wallet, trade and chart data, generated from the public OpenAPI and AsyncAPI specs.
 - **[`go-supabase-management`](https://github.com/psyb0t/go-supabase-management)**: Unofficial Go client for the Supabase Management API: typed methods for organizations, projects, branches, database and auth config, edge functions, secrets and more.
+- **[`go-surge`](https://github.com/psyb0t/go-surge)**: Unofficial Go client for the Surge SMS API: accounts, messages, contacts, campaigns, phone numbers, recordings, users and verifications, generated from Surge's public OpenAPI spec.
 - **[`go-tinker`](https://github.com/psyb0t/go-tinker)**: Unofficial Go client for the Thinking Machines Tinker API: typed methods for model creation, forward and backward passes, optimizer steps, sampling, weights and futures.
 - **[`go-togetherai`](https://github.com/psyb0t/go-togetherai)**: Unofficial Go client for the Together AI REST API, generated with oapi-codegen, with one typed method per endpoint.
 - **[`go-trading212`](https://github.com/psyb0t/go-trading212)**: Unofficial Go client for the Trading 212 Public API: account, positions, orders, history, instruments and pies, generated from the spec Trading 212 publishes.
+- **[`go-twelvedata`](https://github.com/psyb0t/go-twelvedata)**: Unofficial Go client for the Twelve Data market data API: prices, time series, technical indicators, fundamentals and reference data, generated from the public OpenAPI spec.
+- **[`go-unstructured`](https://github.com/psyb0t/go-unstructured)**: Unofficial Go client for the Unstructured Platform and Partition APIs: connectors, workflows, jobs, notifications and document partitioning.
 - **[`go-valtown`](https://github.com/psyb0t/go-valtown)**: Unofficial Go client for the Val Town API: vals, branches, files, environment variables, blobs, SQLite, email, telemetry and users, generated from Val Town's OpenAPI document.
+- **[`go-vectara`](https://github.com/psyb0t/go-vectara)**: Unofficial Go client for the Vectara API v2: corpora, documents, search, generation, chats and API keys, generated from the spec Vectara publishes.
 - **[`go-vercel`](https://github.com/psyb0t/go-vercel)**: Unofficial Go client for the Vercel REST API, generated from Vercel's OpenAPI spec, with a typed method for every endpoint.
 - **[`go-weave`](https://github.com/psyb0t/go-weave)**: Unofficial Go client for the W&B Weave trace server API: typed methods to log and query calls, objects, tables, feedback, costs and evaluations.
 - **[`go-writer-ai`](https://github.com/psyb0t/go-writer-ai)**: Unofficial Go client for the Writer (writer.com) API: chat, completions, files, Knowledge Graphs, no-code applications and tools, generated from Writer's OpenAPI spec.
 - **[`go-xai`](https://github.com/psyb0t/go-xai)**: Unofficial Go client for the xAI (Grok) REST API, generated with oapi-codegen: chat completions, responses, messages, embeddings, image and video generation, files, skills and models.
+- **[`go-zeroentropy`](https://github.com/psyb0t/go-zeroentropy)**: Unofficial Go client for the ZeroEntropy API: collections, documents, retrieval queries, reranking and status, generated from the public OpenAPI spec.
+- **[`go-zulip`](https://github.com/psyb0t/go-zulip)**: Unofficial Go client for the Zulip REST API: messages, users, channels, subscriptions, events and administration, generated from the spec Zulip publishes.
 
 ## Calling them
 

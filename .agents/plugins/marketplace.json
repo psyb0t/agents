@@ -131,6 +131,76 @@
       "description": "Go library that loads AsyncAPI 3 documents into servers, channels, operations and messages, with $refs followed across files and traits merged."
     },
     {
+      "name": "go-bfl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-bfl",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Black Forest Labs FLUX API, generated from its public OpenAPI specification."
+    },
+    {
+      "name": "go-browser-use",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-browser-use",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Browser Use Cloud API v4: agent runs, sessions, workspaces, browsers, profiles, files and integrations."
+    },
+    {
+      "name": "go-btse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-btse",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for BTSE: spot, futures, market data, wallets, earn and OTC, generated from the public API specifications."
+    },
+    {
+      "name": "go-bunnynet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-bunnynet",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Bunny.net core API: CDN, DNS, storage and video library configuration, statistics, load balancers and billing."
+    },
+    {
+      "name": "go-calcom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-calcom",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for Cal.com API v2: bookings, event types, availability, schedules, calendars, teams and profile, generated from the public OpenAPI spec."
+    },
+    {
       "name": "go-cerebras",
       "source": {
         "source": "git-subdir",
@@ -157,6 +227,34 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the Contextual AI API: typed methods for agents, queries, datastores, documents, generate, rerank, parse and LMUnit, generated from Contextual AI's OpenAPI spec."
+    },
+    {
+      "name": "go-coolify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-coolify",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Coolify API: applications, deployments, databases, services, projects, servers and teams, generated from the spec Coolify publishes."
+    },
+    {
+      "name": "go-deribit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-deribit",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for Deribit crypto options and futures: REST account, orders, instruments and market data, plus generated WebSocket subscriptions."
     },
     {
       "name": "go-elevenlabs",
@@ -243,6 +341,20 @@
       "description": "Unofficial Go client for the Interactive Brokers Web API (Client Portal API v1): accounts, positions, contracts, market data and orders, generated from the spec Interactive Brokers publishes."
     },
     {
+      "name": "go-intercom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-intercom",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Intercom REST API: contacts, companies, conversations, messages, articles, tickets and workspace data, generated from the published spec."
+    },
+    {
       "name": "go-jina",
       "source": {
         "source": "git-subdir",
@@ -285,6 +397,48 @@
       "description": "Unofficial Go client for Kalshi: a typed Trade REST client, market data and perps WebSocket clients, and a request signer, generated from the specs Kalshi publishes."
     },
     {
+      "name": "go-klavis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-klavis",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Klavis AI API: MCP servers, tool calls, Strata, user integrations, OAuth and sandboxes, generated from the spec Klavis AI publishes."
+    },
+    {
+      "name": "go-label-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-label-studio",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Label Studio API: projects, tasks, annotations, predictions, imports, exports, storage and administration, generated from HumanSignal's public spec."
+    },
+    {
+      "name": "go-latitude-llm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-latitude-llm",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Latitude LLM API: projects, traces, scores, annotations, saved searches, issues, API keys and organization management, generated from the public OpenAPI spec."
+    },
+    {
       "name": "go-llama-api",
       "source": {
         "source": "git-subdir",
@@ -297,6 +451,34 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the Meta Llama API: chat completions, models, moderations and uploads, generated from Meta's OpenAPI spec."
+    },
+    {
+      "name": "go-lovable",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-lovable",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Lovable API: projects, publishing, analytics, security scans, workspaces, groups and members, generated from the public OpenAPI spec."
+    },
+    {
+      "name": "go-mem0",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-mem0",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Mem0 Platform API: memories, entities, organizations, projects, webhooks, profiles and Dream operations, generated from the spec Mem0 publishes."
     },
     {
       "name": "go-mistral",
@@ -313,6 +495,34 @@
       "description": "Unofficial Go client for the Mistral AI REST API, generated with oapi-codegen, with one typed method per endpoint."
     },
     {
+      "name": "go-morphik",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-morphik",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Morphik API: ingestion, documents, retrieval, queries, models, cloud apps and connectors, generated from Morphik's published spec."
+    },
+    {
+      "name": "go-opik",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-opik",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Opik REST API: projects, traces, spans, datasets, experiments and prompts, generated from the specification Comet publishes."
+    },
+    {
       "name": "go-perplexity",
       "source": {
         "source": "git-subdir",
@@ -325,6 +535,34 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the Perplexity REST API, generated with oapi-codegen: Sonar chat completions, search, embeddings, agents, skills and models."
+    },
+    {
+      "name": "go-polar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-polar",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Polar API: products, customers, subscriptions, checkouts, orders, benefits and usage billing, generated from the public OpenAPI spec."
+    },
+    {
+      "name": "go-postgrid",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-postgrid",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for PostGrid print and mail and address verification, generated from the published OpenAPI document."
     },
     {
       "name": "go-render-api",
@@ -355,6 +593,20 @@
       "description": "Unofficial Go client for the Revolut Business REST API, generated with oapi-codegen, with one typed method per endpoint."
     },
     {
+      "name": "go-roark",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-roark",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Roark API: voice AI agents, calls, chats, simulations, metrics and monitoring, generated from the spec Roark publishes."
+    },
+    {
       "name": "go-runway",
       "source": {
         "source": "git-subdir",
@@ -369,6 +621,34 @@
       "description": "Unofficial Go client for the Runway API: typed methods for image, video and audio generation, task polling, voices, avatars, workflows and organization usage."
     },
     {
+      "name": "go-skyvern",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-skyvern",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Skyvern API: tasks, agents, runs, browser sessions, credentials and schedules, generated from the spec Skyvern publishes."
+    },
+    {
+      "name": "go-solana-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-solana-tracker",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Solana Tracker Data API and Datastream: token, price, pool, wallet, trade and chart data, generated from the public OpenAPI and AsyncAPI specs."
+    },
+    {
       "name": "go-supabase-management",
       "source": {
         "source": "git-subdir",
@@ -381,6 +661,20 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the Supabase Management API: typed methods for organizations, projects, branches, database and auth config, edge functions, secrets and more."
+    },
+    {
+      "name": "go-surge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-surge",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Surge SMS API: accounts, messages, contacts, campaigns, phone numbers, recordings, users and verifications, generated from Surge's public OpenAPI spec."
     },
     {
       "name": "go-tinker",
@@ -425,6 +719,34 @@
       "description": "Unofficial Go client for the Trading 212 Public API: account, positions, orders, history, instruments and pies, generated from the spec Trading 212 publishes."
     },
     {
+      "name": "go-twelvedata",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-twelvedata",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Twelve Data market data API: prices, time series, technical indicators, fundamentals and reference data, generated from the public OpenAPI spec."
+    },
+    {
+      "name": "go-unstructured",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-unstructured",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Unstructured Platform and Partition APIs: connectors, workflows, jobs, notifications and document partitioning."
+    },
+    {
       "name": "go-valtown",
       "source": {
         "source": "git-subdir",
@@ -437,6 +759,20 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the Val Town API: vals, branches, files, environment variables, blobs, SQLite, email, telemetry and users, generated from Val Town's OpenAPI document."
+    },
+    {
+      "name": "go-vectara",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-vectara",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Vectara API v2: corpora, documents, search, generation, chats and API keys, generated from the spec Vectara publishes."
     },
     {
       "name": "go-vercel",
@@ -493,6 +829,34 @@
       },
       "category": "API Clients",
       "description": "Unofficial Go client for the xAI (Grok) REST API, generated with oapi-codegen: chat completions, responses, messages, embeddings, image and video generation, files, skills and models."
+    },
+    {
+      "name": "go-zeroentropy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-zeroentropy",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the ZeroEntropy API: collections, documents, retrieval queries, reranking and status, generated from the public OpenAPI spec."
+    },
+    {
+      "name": "go-zulip",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-zulip",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the Zulip REST API: messages, users, channels, subscriptions, events and administration, generated from the spec Zulip publishes."
     },
     {
       "name": "goenv",
