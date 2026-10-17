@@ -117,6 +117,20 @@
       "description": "Drive a self-hosted gitrakz instance: sync a GitHub user's activity into local SQLite, query the timeline and derived work sessions, and run deterministic programmatic templates that export to CSV/PDF/JSON, over its /api/v1 REST API."
     },
     {
+      "name": "marlinfw-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/marlinfw-tools",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Hardware",
+      "description": "Inspect and carefully control a USB-connected Marlin 3D printer from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, audited calibration writes and a supervised first-layer test."
+    },
+    {
       "name": "go-asyncapi",
       "source": {
         "source": "git-subdir",

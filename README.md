@@ -125,6 +125,12 @@ Feeds and forecasts.
 - **[`predictalot`](https://github.com/psyb0t/docker-predictalot)**: Self-hosted forecasting API: zero-shot time-series forecasting and supervised tabular ML over REST and MCP.
 - **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted MCP server over Google Search Console, Bing Webmaster Tools, GA4, and PageSpeed Insights: search analytics, indexing and crawl diagnostics, ranking and opportunity reports. Read-only by default, scoped to the properties you configure.
 
+### Hardware
+
+Talking to physical machines over USB and serial.
+
+- **[`marlinfw-tools`](https://github.com/psyb0t/marlinfw-tools)**: Inspect and carefully control a USB-connected Marlin 3D printer from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, audited calibration writes and a supervised first-layer test.
+
 ### API clients
 
 Typed Go clients for other people's APIs, generated from the specs they publish.

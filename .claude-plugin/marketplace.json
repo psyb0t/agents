@@ -79,6 +79,18 @@
       "homepage": "https://github.com/psyb0t/gen-asyncapi"
     },
     {
+      "name": "marlinfw-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/marlinfw-tools",
+        "path": ".agents"
+      },
+      "description": "Inspect and carefully control a USB-connected Marlin 3D printer from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, audited calibration writes and a supervised first-layer test.",
+      "license": "WTFPL",
+      "category": "3d-printing",
+      "homepage": "https://github.com/psyb0t/marlinfw-tools"
+    },
+    {
       "name": "go-asyncapi",
       "source": {
         "source": "git-subdir",

@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.10.0 (2026-10-17)
+
+- Added marlinfw-tools to the Claude Code and Codex marketplaces, in a new Hardware category. It inspects and carefully controls a USB-connected Marlin 3D printer from a locked-down Docker container.
+
 ## v1.9.0 (2026-10-17)
 
 - Added go-dydx-indexer, a Go client for the dYdX v4 Indexer API, to the Claude Code and Codex marketplaces under API Clients. It is licensed under AGPL-3.0, unlike the other clients, because the specification it is generated from is.
