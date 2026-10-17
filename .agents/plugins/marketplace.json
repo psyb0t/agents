@@ -257,6 +257,20 @@
       "description": "Unofficial Go client for Deribit crypto options and futures: REST account, orders, instruments and market data, plus generated WebSocket subscriptions."
     },
     {
+      "name": "go-dydx-indexer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-dydx-indexer",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "API Clients",
+      "description": "Unofficial Go client for the dYdX v4 Indexer API: typed methods for markets, orderbooks, candles, trades, funding, subaccounts, positions, orders, fills, transfers and PnL, generated from the indexer's OpenAPI spec."
+    },
+    {
       "name": "go-elevenlabs",
       "source": {
         "source": "git-subdir",

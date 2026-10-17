@@ -199,6 +199,18 @@
       "homepage": "https://github.com/psyb0t/go-deribit"
     },
     {
+      "name": "go-dydx-indexer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-dydx-indexer",
+        "path": ".agents"
+      },
+      "description": "Unofficial Go client for the dYdX v4 Indexer API: typed methods for markets, orderbooks, candles, trades, funding, subaccounts, positions, orders, fills, transfers and PnL, generated from the indexer's OpenAPI spec.",
+      "license": "AGPL-3.0-only",
+      "category": "api-client",
+      "homepage": "https://github.com/psyb0t/go-dydx-indexer"
+    },
+    {
       "name": "go-elevenlabs",
       "source": {
         "source": "git-subdir",

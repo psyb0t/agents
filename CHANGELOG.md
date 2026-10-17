@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.9.0 (2026-10-17)
+
+- Added go-dydx-indexer, a Go client for the dYdX v4 Indexer API, to the Claude Code and Codex marketplaces under API Clients. It is licensed under AGPL-3.0, unlike the other clients, because the specification it is generated from is.
+
 ## v1.8.0 (2026-10-17)
 
 - Added 26 Go API clients to the Claude Code and Codex marketplaces under API Clients: go-bfl, go-browser-use, go-btse, go-bunnynet, go-calcom, go-coolify, go-deribit, go-intercom, go-klavis, go-label-studio, go-latitude-llm, go-lovable, go-mem0, go-morphik, go-opik, go-polar, go-postgrid, go-roark, go-skyvern, go-solana-tracker, go-surge, go-twelvedata, go-unstructured, go-vectara, go-zeroentropy and go-zulip.
