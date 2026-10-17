@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.10.2 (2026-10-17)
+
+- rankrat moved from the Data category to a new SEO category in Codex and in the README.
+
 ## v1.10.1 (2026-10-17)
 
 - Synced 29 plugin descriptions with each project's own plugin manifest, so the marketplace no longer lags behind the projects. Among them, rankrat is now described as writable by default with a read-only switch, which matches how it behaves, and decidealot now lists CLM and hosted Jev decisions.

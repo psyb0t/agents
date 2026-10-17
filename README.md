@@ -123,6 +123,11 @@ Feeds and forecasts.
 
 - **[`planesnitch`](https://github.com/psyb0t/docker-planesnitch)**: Self-hosted aircraft monitor: alerts on military/government/police aircraft, emergency squawks, and custom ICAO watchlists near your locations via Telegram and webhooks, no SDR or hardware required.
 - **[`predictalot`](https://github.com/psyb0t/docker-predictalot)**: Self-hosted forecasting service: zero-shot time-series forecasting (chronos-2, timesfm-2.5, moirai-2, toto-1, sundial-base-128m) across univariate, multivariate, covariate, and sample-path types, plus supervised tabular ML (9 backends, 3 meta-learners) with train+persist and weighted ensembles. Unified REST + MCP (Streamable-HTTP at /mcp).
+
+### SEO
+
+Search consoles, analytics and site audits.
+
 - **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over stdio and Streamable HTTP, plus REST.
 
 ### Hardware
