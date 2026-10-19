@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-60 Codex plugins and 59 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+61 Codex plugins and 60 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -103,9 +103,10 @@ Audio, video, speech. Generate it, mangle it, transcribe it.
 
 ### Finance
 
-Market data and order entry, self-hosted.
+Market data, order entry, and wallets, self-hosted.
 
 - **[`ibkr-httpapi`](https://github.com/psyb0t/ibkr-httpapi)**: HTTP+JSON bridge to Interactive Brokers via ib_async and a local IB Gateway container: market data, option chains with Greeks, account/positions, order entry, and server-side technical analysis over REST and MCP.
+- **[`monero`](https://github.com/psyb0t/docker-monero)**: Your own Monero node with programmatic wallets: sync state, blocks and transactions, wallet balances and addresses, and transfers over REST and MCP, with a read-only switch.
 - **[`mt5-httpapi`](https://github.com/psyb0t/mt5-httpapi)**: MetaTrader 5 trading via REST: market data, orders, positions, history, and server-side technical analysis.
 - **[`mql-compiler`](https://github.com/psyb0t/docker-mql-compiler)**: Compile MQL4 and MQL5 sources to .ex4/.ex5 on Linux with MetaEditor under Wine in Docker, and read the compiler's errors.
 - **[`wickworks`](https://github.com/psyb0t/docker-wickworks)**: Stateless OHLC primitives service: candlestick bars in, technical indicators and Smart-Money-Concepts objects out, over REST and MCP.

@@ -799,6 +799,18 @@
       "homepage": "https://github.com/psyb0t/docker-mediaproc"
     },
     {
+      "name": "monero",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-monero",
+        "path": ".agents"
+      },
+      "description": "Monero node and wallets over REST and MCP: sync state, blocks, transactions, wallet balances and addresses, and transfers.",
+      "license": "WTFPL",
+      "category": "cryptocurrency",
+      "homepage": "https://github.com/psyb0t/docker-monero"
+    },
+    {
       "name": "mql-compiler",
       "source": {
         "source": "git-subdir",

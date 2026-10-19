@@ -970,6 +970,20 @@
       "description": "Media processing over SSH: ffmpeg, sox, and ImageMagick for video/audio transcoding and image manipulation inside a locked-down lockbox container."
     },
     {
+      "name": "monero",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-monero",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance",
+      "description": "Monero node and wallets over REST and MCP: sync state, blocks, transactions, wallet balances and addresses, and transfers."
+    },
+    {
       "name": "mql-compiler",
       "source": {
         "source": "git-subdir",

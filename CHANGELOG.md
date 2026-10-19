@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.11.0 (2026-10-19)
+
+- Added monero to the Claude Code and Codex marketplaces, under Finance in Codex. It runs your own Monero node with programmatic wallets over REST and MCP: sync state, blocks and transactions, balances and addresses, and transfers, with a read-only switch.
+
 ## v1.10.2 (2026-10-17)
 
 - rankrat moved from the Data category to a new SEO category in Codex and in the README.
