@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-61 Codex plugins and 60 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+90 Codex plugins and 89 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -64,6 +64,8 @@ Restart the session after installing or the skill won't be loaded.
 ### Development
 
 Coding agents, frameworks, and the tools you point them at.
+
+- **[`go-workflows`](https://github.com/psyb0t/go-workflows)**: Build durable Go workflows with shared storage, workers, activities, retries, signals and timers.
 
 - **[`claudebox`](https://github.com/psyb0t/docker-claudebox)**: Claude Code running in an isolated Docker container, driven via interactive shell, one-shot exec, an HTTP REST API, an OpenAI-compatible chat/completions adapter, an MCP server, a Telegram bot, and a YAML cron scheduler.
 - **[`codexbox`](https://github.com/psyb0t/docker-codexbox)**: OpenAI Codex CLI running in a Docker container, put on the network: a REST API, an OpenAI-compatible chat-completions endpoint, an MCP server, a Telegram bot, and a cron scheduler.
@@ -129,7 +131,7 @@ Feeds and forecasts.
 
 Search consoles, analytics and site audits.
 
-- **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over stdio and Streamable HTTP, plus REST.
+- **[`rankrat`](https://github.com/psyb0t/rankrat)**: Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over Streamable HTTP at /mcp, plus REST.
 
 ### Hardware
 

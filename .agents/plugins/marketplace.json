@@ -887,6 +887,20 @@
       "description": "Unofficial Go client for the Zulip REST API: messages, users, channels, subscriptions, events and administration, generated from the spec Zulip publishes."
     },
     {
+      "name": "go-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/go-workflows",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Build durable Go workflows with shared storage, workers, activities, retries, signals and timers."
+    },
+    {
       "name": "goenv",
       "source": {
         "source": "git-subdir",
@@ -1135,7 +1149,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "SEO",
-      "description": "Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over stdio and Streamable HTTP, plus REST."
+      "description": "Self-hosted SEO intelligence over Google Search Console, Bing Webmaster Tools, GA4, PageSpeed, CrUX, Cloudflare, IndexNow, and optional local Lighthouse: persistent monitoring, internal-link and content opportunities, ownership, remediation, onboarding, and multi-provider backlinks. Writable by default with one read-only switch. MCP over Streamable HTTP at /mcp, plus REST."
     },
     {
       "name": "servicepack",

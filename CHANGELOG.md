@@ -2,6 +2,11 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.12.0 (2026-11-09)
+
+- Added go-workflows to the Claude Code and Codex marketplaces, under Development. It builds durable Go workflows with shared storage, workers, activities, retries, signals and timers.
+- rankrat's description now says it speaks MCP over Streamable HTTP at `/mcp`. Its stdio transport was removed in rankrat v0.21.0.
+
 ## v1.11.0 (2026-10-19)
 
 - Added monero to the Claude Code and Codex marketplaces, under Finance in Codex. It runs your own Monero node with programmatic wallets over REST and MCP: sync state, blocks and transactions, balances and addresses, and transfers, with a read-only switch.
