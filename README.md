@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-90 Codex plugins and 89 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+92 Codex plugins and 91 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -28,6 +28,8 @@ source repo, so you always get whatever that project last shipped.
   - [Finance](#finance)
   - [Communication](#communication)
   - [Data](#data)
+  - [SEO](#seo)
+  - [Hardware](#hardware)
   - [API clients](#api-clients)
 - [Calling them](#calling-them)
 - [Adding your own](#adding-your-own)
@@ -77,6 +79,7 @@ Coding agents, frameworks, and the tools you point them at.
 - **[`loop`](https://github.com/psyb0t/codex-plugin-loop)**: Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations. *(Codex only)*
 - **[`peen`](https://github.com/psyb0t/peen)**: Durable coding-agent backend: configure providers and Docker workspaces, send work over WebSocket, add harness layers, and inspect or control SQLite-backed sessions.
 - **[`pibox`](https://github.com/psyb0t/docker-pibox)**: pi-coding-agent running in a container: interactive shell, one-shot exec, an HTTP REST API, an OpenAI-compatible chat endpoint, an MCP server, a Telegram bot, and a cron scheduler, all on one image.
+- **[`reverse-engineer-anything`](https://github.com/psyb0t/docker-reverse-engineer-anything)**: Reverse engineer Android APKs and other software without source code using REA in a locked-down Docker container: JADX decompilation, class search, reference tracing, Apktool resources, adb devices, plus JavaScript/Electron, .NET, Go, Rust, WASM and capture analysis, as a Streamable HTTP MCP server or CLI.
 - **[`servicepack`](https://github.com/psyb0t/servicepack)**: Clone-and-own Go service framework: debug related services together locally, then ship one binary or split them into microservices with lifecycle, retry, readiness, and CLI scaffolding.
 - **[`stealthy-auto-browse`](https://github.com/psyb0t/docker-stealthy-auto-browse)**: Headless-detection-resistant browser automation in Docker: Camoufox stealth browser, human-like OS-level input via PyAutoGUI, HTTP API and MCP server, for authorized QA and defensive security testing.
 - **[`vibecheck`](https://github.com/psyb0t/vibecheck)**: Use Vibecheck for typed classification, scoring, and policy decisions over REST or MCP.
@@ -117,7 +120,7 @@ Market data, order entry, and wallets, self-hosted.
 
 Mail and messaging as an API your agent can drive.
 
-- **[`mailbox`](https://github.com/psyb0t/docker-mailbox)**: Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port: read, search, send, mark-seen, and delete mail across multiple inboxes.
+- **[`mailbox`](https://github.com/psyb0t/docker-mailbox)**: Scoped IMAP/SMTP access over HTTP and MCP: read, organize, draft, reply and send mail.
 - **[`telethon-plus`](https://github.com/psyb0t/docker-telethon-plus)**: HTTP + MCP control plane over a real Telegram MTProto userbot (Telethon): send/read/edit/delete/forward messages, dialogs, entities, media, chat admin, and polls, plus an incoming-message webhook.
 
 ### Data
@@ -135,8 +138,9 @@ Search consoles, analytics and site audits.
 
 ### Hardware
 
-Talking to physical machines over USB and serial.
+Talking to physical machines: printers over USB and serial, phones over MCP.
 
+- **[`dikciz-launcher`](https://github.com/psyb0t/dikciz-launcher)**: Programmable Android launcher and owner-controlled MCP device server.
 - **[`marlinfw-tools`](https://github.com/psyb0t/marlinfw-tools)**: Inspect and carefully control a USB-connected Marlin 3D printer (Ender 3 and similar) from a locked-down Docker container: firmware and settings reports, telemetry, SD listings, supervised homing, single audited calibration writes and a supervised first-layer test.
 
 ### API clients
@@ -155,7 +159,7 @@ Typed Go clients for other people's APIs, generated from the specs they publish.
 - **[`go-dydx-indexer`](https://github.com/psyb0t/go-dydx-indexer)**: Unofficial Go client for the dYdX v4 Indexer API: typed methods for markets, orderbooks, candles, trades, funding, subaccounts, positions, orders, fills, transfers and PnL, generated from the indexer's OpenAPI spec.
 - **[`go-elevenlabs`](https://github.com/psyb0t/go-elevenlabs)**: Unofficial Go client for the ElevenLabs REST API, generated with oapi-codegen, with one typed method per endpoint.
 - **[`go-etoro`](https://github.com/psyb0t/go-etoro)**: Unofficial Go clients for the eToro public API: a typed REST client and a WebSocket client for rates, candles, market status and order updates, generated from the specs eToro publishes.
-- **[`go-exa`](https://github.com/psyb0t/go-exa)**: Unofficial Go client for the Exa search API: search, find similar, page contents, cited answers and research tasks, generated from the spec Exa publishes.
+- **[`go-exa`](https://github.com/psyb0t/go-exa)**: Unofficial Go client for the Exa API: search, similar pages, page contents, cited answers, agent runs and Websets, generated from Exa's published specification.
 - **[`go-fireworks`](https://github.com/psyb0t/go-fireworks)**: Unofficial Go client for the Fireworks AI REST API, generated with oapi-codegen: typed methods for chat completions, models, deployments, datasets and fine-tuning jobs.
 - **[`go-hubspot`](https://github.com/psyb0t/go-hubspot)**: Unofficial Go client for the HubSpot API, generated from HubSpot's unified OpenAPI spec: CRM objects, associations, properties, marketing, CMS, automation and more, with Bearer token auth.
 - **[`go-ibkr`](https://github.com/psyb0t/go-ibkr)**: Unofficial Go client for the Interactive Brokers Web API (Client Portal API v1): accounts, positions, contracts, market data and orders, generated from the spec Interactive Brokers publishes.

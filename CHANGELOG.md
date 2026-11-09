@@ -2,6 +2,12 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.13.0 (2026-11-09)
+
+- Added dikciz-launcher to the Claude Code and Codex marketplaces, under Hardware. It is a programmable Android launcher and owner-controlled MCP device server.
+- Added reverse-engineer-anything to the Claude Code and Codex marketplaces, under Development. It reverse engineers Android APKs and other software without source code in a locked-down Docker container, as a Streamable HTTP MCP server or CLI.
+- Synced the go-exa and mailbox descriptions with each project's plugin manifest. go-exa now lists agent runs and Websets, and mailbox describes scoped IMAP/SMTP access with drafts and replies.
+
 ## v1.12.0 (2026-11-09)
 
 - Added go-workflows to the Claude Code and Codex marketplaces, under Development. It builds durable Go workflows with shared storage, workers, activities, retries, signals and timers.

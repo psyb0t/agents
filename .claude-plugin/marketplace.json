@@ -253,7 +253,7 @@
         "url": "https://github.com/psyb0t/go-exa",
         "path": ".agents"
       },
-      "description": "Unofficial Go client for the Exa search API: search, find similar, page contents, cited answers and research tasks, generated from the spec Exa publishes.",
+      "description": "Unofficial Go client for the Exa API: search, similar pages, page contents, cited answers, agent runs and Websets, generated from Exa's published specification.",
       "license": "MIT",
       "category": "api-client",
       "homepage": "https://github.com/psyb0t/go-exa"
@@ -793,7 +793,7 @@
         "url": "https://github.com/psyb0t/docker-mailbox",
         "path": ".agents"
       },
-      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port: read, search, send, mark-seen, and delete mail across multiple inboxes.",
+      "description": "Scoped IMAP/SMTP access over HTTP and MCP: read, organize, draft, reply and send mail.",
       "license": "WTFPL",
       "category": "email",
       "homepage": "https://github.com/psyb0t/docker-mailbox"
@@ -1073,6 +1073,30 @@
       "license": "WTFPL",
       "category": "technical-analysis",
       "homepage": "https://github.com/psyb0t/docker-wickworks"
+    },
+    {
+      "name": "dikciz-launcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/dikciz-launcher",
+        "path": ".agents"
+      },
+      "description": "Programmable Android launcher and owner-controlled MCP device server.",
+      "license": "GPL-3.0-only",
+      "category": "device-automation",
+      "homepage": "https://github.com/psyb0t/dikciz-launcher"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-reverse-engineer-anything",
+        "path": ".agents"
+      },
+      "description": "Reverse engineer Android APKs and other software without source code using REA in a locked-down Docker container: JADX decompilation, class search, reference tracing, Apktool resources, adb devices, plus JavaScript/Electron, .NET, Go, Rust, WASM and capture analysis, as a Streamable HTTP MCP server or CLI.",
+      "license": "WTFPL",
+      "category": "reverse-engineering",
+      "homepage": "https://github.com/psyb0t/docker-reverse-engineer-anything"
     }
   ]
 }

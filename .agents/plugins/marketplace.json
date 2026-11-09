@@ -324,7 +324,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "API Clients",
-      "description": "Unofficial Go client for the Exa search API: search, find similar, page contents, cited answers and research tasks, generated from the spec Exa publishes."
+      "description": "Unofficial Go client for the Exa API: search, similar pages, page contents, cited answers, agent runs and Websets, generated from Exa's published specification."
     },
     {
       "name": "go-fireworks",
@@ -967,7 +967,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Communication",
-      "description": "Multi-mailbox IMAP/SMTP control plane exposed as a REST API and MCP server on a single port: read, search, send, mark-seen, and delete mail across multiple inboxes."
+      "description": "Read, search, organize, draft, reply and send mail across IMAP/SMTP accounts through REST or MCP with scoped tokens."
     },
     {
       "name": "mediaproc",
@@ -1262,6 +1262,34 @@
       },
       "category": "Finance",
       "description": "Stateless OHLC primitives service: candlestick bars in, technical indicators and Smart-Money-Concepts objects out, over REST and MCP."
+    },
+    {
+      "name": "dikciz-launcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/dikciz-launcher",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Hardware",
+      "description": "Programmable Android launcher and owner-controlled MCP device server."
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-reverse-engineer-anything",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Reverse engineer Android APKs and other software without source code using REA in a locked-down Docker container: JADX decompilation, class search, reference tracing, Apktool resources, adb devices, plus JavaScript/Electron, .NET, Go, Rust, WASM and capture analysis, as a Streamable HTTP MCP server or CLI."
     }
   ]
 }
