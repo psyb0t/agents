@@ -998,7 +998,7 @@
         "path": ".agents"
       },
       "description": "Headless-detection-resistant browser automation in Docker: Camoufox stealth browser, human-like OS-level input via PyAutoGUI, HTTP API and MCP server, for authorized QA and defensive security testing.",
-      "license": "WTFPL",
+      "license": "AGPL-3.0-only",
       "category": "browser-automation",
       "homepage": "https://github.com/psyb0t/docker-stealthy-auto-browse"
     },

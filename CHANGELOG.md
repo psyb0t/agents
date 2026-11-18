@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.13.1 (2026-11-18)
+
+- stealthy-auto-browse's Claude Code marketplace entry now lists its license as AGPL-3.0-only, matching the project's relicense in 3.8.0.
+
 ## v1.13.0 (2026-11-09)
 
 - Added dikciz-launcher to the Claude Code and Codex marketplaces, under Hardware. It is a programmable Android launcher and owner-controlled MCP device server.
