@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.13.2 (2026-11-18)
+
+- mailbox's Claude Code marketplace entry now lists its license as AGPL-3.0-only, matching the project's relicense in 0.9.0.
+
 ## v1.13.1 (2026-11-18)
 
 - stealthy-auto-browse's Claude Code marketplace entry now lists its license as AGPL-3.0-only, matching the project's relicense in 3.8.0.

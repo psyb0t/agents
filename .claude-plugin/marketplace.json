@@ -794,7 +794,7 @@
         "path": ".agents"
       },
       "description": "Scoped IMAP/SMTP access over HTTP and MCP: read, organize, draft, reply and send mail.",
-      "license": "WTFPL",
+      "license": "AGPL-3.0-only",
       "category": "email",
       "homepage": "https://github.com/psyb0t/docker-mailbox"
     },
