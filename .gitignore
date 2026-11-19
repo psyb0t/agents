@@ -9,7 +9,7 @@
 
 # Dev-level markdown: never commit
 CODEX.local.md
-CLAUDE.md
+CLAUDE.local.md
 PLAN.md
 implplan.md
 NOTES.md
@@ -23,10 +23,17 @@ ANUSTIMES.md
 # Local tooling
 git-update.sh
 git-update.sh.debot
+.testing/
+.plan/
 
 # Editors / OS
 .idea/
 .vscode/
+.editorconfig
+.tool-versions
+.python-version
+.nvmrc
+pyrightconfig.json
 .DS_Store
 *.swp
 

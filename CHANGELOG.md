@@ -2,6 +2,11 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.14.0 (2026-11-19)
+
+- Added auto-linux-desk to the Claude Code and Codex marketplaces, under Development, for self-hosted Linux desktop automation over HTTP and MCP.
+- Added shared contributor guidance with relative Claude compatibility links.
+
 ## v1.13.2 (2026-11-18)
 
 - mailbox's Claude Code marketplace entry now lists its license as AGPL-3.0-only, matching the project's relicense in 0.9.0.

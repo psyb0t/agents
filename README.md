@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-92 Codex plugins and 91 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+93 Codex plugins and 92 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -66,6 +66,8 @@ Restart the session after installing or the skill won't be loaded.
 ### Development
 
 Coding agents, frameworks, and the tools you point them at.
+
+- **[`auto-linux-desk`](https://github.com/psyb0t/docker-auto-linux-desk)**: Control a Linux desktop over HTTP or MCP with windows, humanized input, AT-SPI2 widgets, clipboard, screenshots, recordings and scripts.
 
 - **[`go-workflows`](https://github.com/psyb0t/go-workflows)**: Build durable Go workflows with shared storage, workers, activities, retries, signals and timers.
 

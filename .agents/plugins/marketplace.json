@@ -5,6 +5,20 @@
   },
   "plugins": [
     {
+      "name": "auto-linux-desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-auto-linux-desk",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "description": "Control a self-hosted Linux desktop over HTTP or MCP: windows, humanized input, accessibility, clipboard, screenshots, recording and scripts."
+    },
+    {
       "name": "aigate",
       "source": {
         "source": "git-subdir",

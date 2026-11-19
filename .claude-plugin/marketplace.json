@@ -7,6 +7,18 @@
   "description": "Agent skills and plugins from psyb0t projects.",
   "plugins": [
     {
+      "name": "auto-linux-desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-auto-linux-desk",
+        "path": ".agents"
+      },
+      "description": "Control a self-hosted Linux desktop over HTTP or MCP: windows, humanized input, accessibility, clipboard, screenshots, recording and scripts.",
+      "license": "AGPL-3.0-only",
+      "category": "desktop-automation",
+      "homepage": "https://github.com/psyb0t/docker-auto-linux-desk"
+    },
+    {
       "name": "aigate",
       "source": {
         "source": "git-subdir",
