@@ -970,6 +970,20 @@
       "description": "Codex CLI plugin that repeats instructions at a fixed interval in the active TUI session, holding one turn open and waiting on the input-interruptible clock.sleep tool between iterations."
     },
     {
+      "name": "keepassbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-keepassbox",
+        "path": ".agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Infrastructure",
+      "description": "Manage KeePass vaults, entries, and TOTP through KeePassBox."
+    },
+    {
       "name": "mailbox",
       "source": {
         "source": "git-subdir",

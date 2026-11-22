@@ -799,6 +799,18 @@
       "homepage": "https://github.com/psyb0t/ibkr-httpapi"
     },
     {
+      "name": "keepassbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/docker-keepassbox",
+        "path": ".agents"
+      },
+      "description": "Manage KeePass vaults, entries, and TOTP through KeePassBox.",
+      "license": "GPL-3.0-only",
+      "category": "infrastructure",
+      "homepage": "https://github.com/psyb0t/docker-keepassbox"
+    },
+    {
       "name": "mailbox",
       "source": {
         "source": "git-subdir",

@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.15.0 (2026-11-22)
+
+- Added KeePassBox to the Claude Code and Codex marketplaces for managing KeePass vaults, entries, and TOTP.
+
 ## v1.14.0 (2026-11-19)
 
 - Added auto-linux-desk to the Claude Code and Codex marketplaces, under Development, for self-hosted Linux desktop automation over HTTP and MCP.

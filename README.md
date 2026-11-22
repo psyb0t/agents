@@ -3,7 +3,7 @@
 [![version](https://raw.githubusercontent.com/psyb0t/agents/badges/version.svg)](https://github.com/psyb0t/agents/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/agents/badges/license.svg)](LICENSE)
 
-93 Codex plugins and 92 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
+94 Codex plugins and 93 Claude plugins. One `marketplace add`. Then go ahead and tell your agent to place a
 trade on MetaTrader, rip the stems out of a track, transmit FM off a Raspberry
 Pi Zero, read your unread mail, post to Telegram from a real userbot account,
 forecast a time series, watch for military aircraft overhead, or drive a browser
@@ -92,6 +92,7 @@ Storage, tunnels, mounts, proxies: the plumbing.
 
 - **[`aigate`](https://github.com/psyb0t/aigate)**: Self-hosted AI platform behind one OpenAI-compatible endpoint: inference routing across cloud and local providers, MCP tool use, browser automation, image/speech/transcription, object storage, agentic code execution, web search, email and Telegram gateways, and a web UI.
 - **[`hybrids3`](https://github.com/psyb0t/docker-hybrids3)**: Self-hosted lightweight object storage speaking S3 (boto3/AWS SDK, Sig V4), plain HTTP (curl + Bearer auth), and MCP (Streamable HTTP tools) from one container: SQLite metadata, flat-file storage, config-defined buckets, per-bucket keys, a cross-bucket master key, and presigned GET/PUT URLs.
+- **[`keepassbox`](https://github.com/psyb0t/docker-keepassbox)**: Manage KeePass vaults, entries, and TOTP through KeePassBox.
 - **[`persistent-sshfs`](https://github.com/psyb0t/persistent-sshfs)**: Bash tool that brings up SSHFS mounts and retries the initial connection until key-based SSH auth succeeds, then mounts with sshfs -o reconnect.
 - **[`proxq`](https://github.com/psyb0t/docker-proxq)**: Redis-backed async HTTP proxy queue built on asynq: submit any request, get a job ID back instantly, poll for status, and fetch the replayed upstream response.
 - **[`pr0xteus`](https://github.com/psyb0t/pr0xteus)**: WireGuard-backed SOCKS5 and HTTP proxy pools for trusted services that need a configured country exit without exposing an open proxy.
